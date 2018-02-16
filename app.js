@@ -15,9 +15,21 @@ app.use(bodyParser.urlencoded({extended: false}));
 // Set Static Path
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function(req, res){
-    res.send('Hello World');
+// Routes
+app.get('/', (req, res) => {
+    //res.send('Hello World');
+    res.render('index', {
+        title: 'Test frá app.js yfir í index.ejs'
+    });
 });
+
+// Error if website path does not exist
+app.use((req, res, next) => {
+    const err = new Error('Síða fannst ekki!');
+    err.status = 404;
+    next(err);
+});
+
 
 app.listen(3000, function(){
     console.log('Server started on port 3000');
