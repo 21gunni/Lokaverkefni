@@ -15,12 +15,11 @@ h1 {
 
 /*Tilbods svæðið*/
 
-
-
 .Tilbod_1{
 	background-color:black;
 	padding: 5% 10%;
-	margin-top: 1%
+	margin-top: 1%;
+	color: white;
 }
 
 .Tilbod_2{
@@ -33,7 +32,8 @@ h1 {
 
 	background-color:black;
 	padding: 5% 10%;
-	margin-top: 1%
+	margin-top: 1%;
+	color: white;
 }
 
 .Tilbod_4{

@@ -9,33 +9,65 @@
 </head>
 <body>
     <header>
-        <section class="header-section">
-
-            
+        <section class="header-section">            
             <h1>Very nice</h1>
-            <h2><%= title %></h2>
         </section>
     </header>
     <main>
         <h3 class="places">t.d .. vodafone rúnk tilboð</h3>
         <div>
-
         </div>
-
 		<section class="Tilbod_1">
+            <ul>
+                <% foodNova.forEach(function(food){ %>
+                    <br>
+                    <li> <strong>Nafn:</strong> <%= food.name %></li>
+                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
+                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
+                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
+                <% }) %>
+            </ul>
 		</section>
 
 		<section class="Tilbod_2">
+            <ul>
+                <% foodSiminn.forEach(function(food){ %>
+                    <br>
+                    <li> <strong>Nafn:</strong> <%= food.name %></li>
+                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
+                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
+                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
+                <% }) %>
+            </ul>
 		</section>
 		
 		<section class="Tilbod_3">
+            <ul>
+                <% food2f1.forEach(function(food){ %>
+                    <br>
+                    <li> <strong>Nafn:</strong> <%= food.name %></li>
+                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
+                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
+                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
+                <% }) %>
+            </ul>
 		</section>
 
 		<section class="Tilbod_4">
+            <ul>
+                <% foodVodafone.forEach(function(food){ %>
+                    <br>
+                    <li> <strong>Nafn:</strong> <%= food.name %></li>
+                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
+                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
+                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
+                <% }) %>
+            </ul>
 		</section>
 
     </main>
 
-<script src="javascript/main.js"></script>
+    <script type="text/javascript" src="main.js"></script> 
+    <script type="text/javascript" src="foodMock.js"></script> 
 </body>
 </html>
