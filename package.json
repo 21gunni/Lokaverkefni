@@ -1,0 +1,16 @@
+{
+  "name": "lokaverkefni",
+  "version": "1.0.0",
+  "description": "Lokaverkefni tölvunarfræði í Háskóla Íslands",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gunnar Már Harðarson & Vilhjálmur Jónsson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
