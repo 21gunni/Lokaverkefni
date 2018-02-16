@@ -62,7 +62,7 @@ const food2f1 = [
 
 ]
 
-const vodafone = [
+const foodVodafone = [
     {
         name: '17 sortir',
         location: 'Grandagarður 19',
@@ -83,3 +83,7 @@ const vodafone = [
     },
 
 ]
+
+module.exports = {
+    foodNova,
+  };
