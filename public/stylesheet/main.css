@@ -6,3 +6,43 @@ h1 {
 .places {
     color: pink
 }
+
+
+.header-section {
+	background-color:white;
+	padding: 5% 10%;
+}
+
+/*Tilbods svæðið*/
+
+
+
+.Tilbod_1{
+	background-color:black;
+	padding: 5% 10%;
+	margin-top: 1%
+}
+
+.Tilbod_2{
+	background-color:white;
+	padding: 5% 10%;
+	margin-top: 1%
+
+}
+.Tilbod_3{
+
+	background-color:black;
+	padding: 5% 10%;
+	margin-top: 1%
+}
+
+.Tilbod_4{
+	background-color:white;
+	padding: 5% 10%;
+	margin-top: 1%
+
+}
+
+
+
+/**/
