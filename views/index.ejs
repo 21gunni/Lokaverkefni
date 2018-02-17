@@ -10,7 +10,7 @@
 <body>
     <header>
         <section class="header-section">            
-            <h1>Very nice</h1>
+            <h1>Svangur.is</h1>
         </section>
     </header>
     <main>
@@ -18,54 +18,103 @@
         <div>
         </div>
 		<section class="Tilbod_1">
-            <ul>
-                <% foodNova.forEach(function(food){ %>
-                    <br>
-                    <li> <strong>Nafn:</strong> <%= food.name %></li>
-                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
-                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
-                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
-                <% }) %>
-            </ul>
+            <div class="flexingItems">
+             <% foodNova.forEach(function(food){ %>
+            </div>
+                <div class ="Tilbodin">
+                    <img class ="Brynjar" src="https://i.imgur.com/Kvf7Z92.jpg" alt="brynjarEating">
+                
+                    <div class="eventName">
+                        <p class ="stadurNafn"><%= food.name %></p>
+                    </div>
+
+                    <div class="Dagsetning">
+                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
+                    </div>
+
+                    <div class="Location">
+                        <p><%= food.location %></p>
+                    </div>
+
+                </div>
+            <% }) %>           
 		</section>
 
 		<section class="Tilbod_2">
-            <ul>
+            <div class="flexingItems">
                 <% foodSiminn.forEach(function(food){ %>
-                    <br>
-                    <li> <strong>Nafn:</strong> <%= food.name %></li>
-                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
-                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
-                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
-                <% }) %>
-            </ul>
+            </div>
+                <div class ="Tilbodin">
+                    <img class ="Brynjar" src="https://i.imgur.com/tfc7pAV.jpg" alt="brynjarEating">
+                
+                    <div class="eventName">
+                        <p class ="stadurNafn"><%= food.name %></p>
+                    </div>
+
+                    <div class="Dagsetning">
+                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
+                    </div>
+
+                    <div class="Location">
+                        <p><%= food.location %></p>
+                    </div>
+
+                </div>
+            <% }) %>   
 		</section>
 		
 		<section class="Tilbod_3">
-            <ul>
+            <div class="flexingItems">
                 <% food2f1.forEach(function(food){ %>
-                    <br>
-                    <li> <strong>Nafn:</strong> <%= food.name %></li>
-                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
-                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
-                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
-                <% }) %>
-            </ul>
+            </div>
+                <div class ="Tilbodin">
+                    <img class ="Brynjar" src="https://i.imgur.com/Kvf7Z92.jpg" alt="brynjarEating">
+                
+                    <div class="eventName">
+                        <p class ="stadurNafn"><%= food.name %></p>
+                    </div>
+
+                    <div class="Dagsetning">
+                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
+                    </div>
+
+                    <div class="Location">
+                        <p><%= food.location %></p>
+                    </div>
+
+                </div>
+            <% }) %>  
 		</section>
 
 		<section class="Tilbod_4">
-            <ul>
+            <div class="flexingItems">
                 <% foodVodafone.forEach(function(food){ %>
-                    <br>
-                    <li> <strong>Nafn:</strong> <%= food.name %></li>
-                    <li> <strong>Heimilisfang: </strong><%= food.location %></li>
-                    <li> <strong>Dagsetningar: </strong><%= food.dates %></li>
-                    <li> <strong>Tímasetningar: </strong><%= food.time %></li>
-                <% }) %>
-            </ul>
+            </div>
+                <div class ="Tilbodin">
+                    <img class ="Brynjar" src="https://i.imgur.com/tfc7pAV.jpg" alt="brynjarEating">
+                
+                    <div class="eventName">
+                        <p class ="stadurNafn"><%= food.name %></p>
+                    </div>
+
+                    <div class="Dagsetning">
+                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
+                    </div>
+
+                    <div class="Location">
+                        <p><%= food.location %></p>
+                    </div>
+
+                </div>
+            <% }) %> 
 		</section>
 
     </main>
+    <footer>
+        <section class="Footer-section">
+            <p>bla bla bla bla bla</p>
+        </section>
+    </footer>
 
     <script type="text/javascript" src="main.js"></script> 
     <script type="text/javascript" src="foodMock.js"></script> 
