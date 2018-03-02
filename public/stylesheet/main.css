@@ -10,8 +10,16 @@ h1 {
 
 
 .header-section {
-	background-color:white;
-	padding: 5% 10%;
+	background-color:#1496DC;
+    padding-bottom: 5%;
+    padding-top:5%;
+}
+
+.Logo {
+    display: block;
+    margin:0px auto;
+    max-width:300px;
+    
 }
 
 /*Tilbods svæðið*/
