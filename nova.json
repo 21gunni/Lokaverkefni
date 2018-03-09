@@ -1,0 +1,918 @@
+{
+ "novaPlaces": [
+  {
+   "name": "Sushibarinn",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/16bpEjfgFiKCYAaCMikg0C/46c4054987b1523dab4d2c67ea5aed8b/Screen_Shot_2018-01-30_at_15.53.12.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Sushibarinn Suðurlandsbraut býður 2 fyrir 1 af öllum rúllum á matseðli og rúllu vikunnar. Mánudaga til fimmtudaga frá 11:30 - 21:00. Gildir á staðnum og ekki af öðrum tilboðum.",
+   "address": "Suðurlandsbraut 10",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    }
+   ]
+  },
+  {
+   "name": "Geiri Smart",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/5GG4OHrCfYIOwEqcMykcIM/4880b813831ee59464d63b4f2f9153c5/Geiri_Smart_Burger.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Geiri Smart býður 2 fyrir 1 af Rib-Eye hamborgara, frá kl. 11:30 – 14:00 mánudaga til miðvikudaga.",
+   "address": "Hverfisgata 30",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    }
+   ]
+  },
+  {
+   "name": "Hressó",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/2yc20vKmB2sGOMWU20Qqc8/fa08eaf6d987c002f8ff9e564395592b/hresso_pizza.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Hressó býður 2 fyrir 1 af súrdeigspizzum alla virka daga frá kl. 11:30-14:00.",
+   "address": "Austurstræti 20",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "Kaffitár",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/4FmW5p17Y4w6ASCwCg8Ya4/30a541d1acb90e25664725d153134de4/Daimjokull.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Kaffitár býður 2 fyrir 1 af kaffidrykkjum alla virka daga frá kl: 14:00, í Bankastræti, á Höfðatorgi og Þjóðminjasafni.",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "Satt Restaurant",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/5K5YbdyJ2wi8MOuSYQsqOS/df05fb0869ab489d19c05949587e2caf/Satt_Buffet.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Satt Restaurant býður 2 fyrir 1 af hádegishlaðborði mánudaga til fimmtudaga frá 11:30 - 14:00. Pantið borð í s. 444 4050.",
+   "address": "Nauthólsvegur 52",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    }
+   ]
+  },
+  {
+   "name": "Joe & the juice",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1IL8WLUcoUiksG8cgwAkOO/7e8065b630afa766c374416cfa199d42/IMG_5888.jpeg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Joe & the juice býður 2 fyrir 1 af samlokum og djúsum alla virka daga frá 15:00 - 20:00 á Laugavegi, í Lágmúla og í Laugum.",
+   "address": "Lágmúli, Laugavegur og Laugar",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "El Santo",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1bCzNMCtMEmQAcwq2O0Cge/68b83dc8022a70d3f426d26440329184/banner_el_santo.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "El Santo býður 2 fyrir 1 af aðalréttum mánudaga til miðvikudaga frá 11:30 - 22:00 og fimmtudaga og föstudaga frá 11:30 - 14:00.",
+   "address": "Hverfisgata 20",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    }
+   ]
+  },
+  {
+   "name": "Lemon",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6qfUiL1J8Q0wa2OaUKiOmg/408949f2fbda2717be594c9e4f291462/2f1-Kubbur-1194x825-Lemon.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Lemon býður 2 fyrir 1 af samlokum og djúsum frá kl. 16:00 alla daga. Eitt tilboð fyrir hvert símtæki. Gildir ekki af Kombó. Gildir á Akureyri, Suðurlandsbraut, Laugavegi og Hjallahrauni.",
+   "address": "Suðurlandsbraut 4a, Hjallahrauni 13 og Laugavegi 56",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Snyrtistofa Ágústu",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/28MGAONUpGygGCEGWgGeEc/e095911006983670cc46708893b22c87/IMG_6209.JPG?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Snyrtistofan Ágústa var að flytja í Faxafen 5 og býður 2 fyrir 1 í litun og plokkun alla mánudaga í mars. Tímapantanir í síma 552 9070",
+   "address": "Faxafen 5",
+   "days": [
+    {
+     "name": "Mán"
+    }
+   ]
+  },
+  {
+   "name": "Sakebarinn",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/657OdiLrmoYgqOw2sYYY8C/103a0eb0d5c1b3ec1562920c2ae8c9b0/Screen_Shot_2018-01-30_at_15.55.40.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Sakebarinn býður 2 fyrir 1 af öllum rúllum á matseðli og rúllu mánaðarins. Mánudaga til fimmtudaga frá 17:00 - 22:00. Gildir á staðnum og ekki af öðrum tilboðum.",
+   "address": "Laugavegur 2",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    }
+   ]
+  },
+  {
+   "name": "Ríó Reykjavík",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/4M0EkFXmcooqYYyea6QimQ/9f7959c8ad437d77cef52c0835d59559/image1.jpeg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Ríó Reykjavík býður 2 fyrir 1 af hamborgara og fisk dagsins alla daga frá 11:30 - 14:00.",
+   "address": "Geirsgata 9",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Ítalía",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/2sS9Vtf7FiEsQ0syCaiUUc/6021c0bfca849a6a63aec838e5e0d614/2f1-Kubbur-1194x825-Italia.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Veitingahúsið Ítalía býður upp á 2 fyrir 1 af pizzum með einni áleggstegund og spaghetti bolognese eða carbonara, frá kl 11:30 - 13:30 mánudaga til miðvikudaga.",
+   "address": "Laugavegur 11",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    }
+   ]
+  },
+  {
+   "name": "Roadhouse",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/5D8dMet5FC6aSGGUm6s4AW/0ecada406ebd972dc223d4a721858497/image1.jpeg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Roadhouse býður 2 fyrir 1 af hamborgaramáltíðum frá kl. 11:30-17:00 alla virka daga. Gildir ekki af tilboðum.",
+   "address": "Snorrabraut 56",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "Nora veitingahús",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1ilRxEXouWagCeGAMgUUgo/09e6383e06009cb3696aa658143301ca/2f1-Kubbur-1194x825-Nora.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Nora býður 2 fyrir 1 af aðalréttum sunnudaga til fimmtudaga frá 11:30 - 22:00 og föstudaga frá 11:30 - 14:00.",
+   "address": "Pósthússtræti 9",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Aurora Icelandair Hotel Akureyri",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/3Kubn3VQFOOa2GCW4cIo2A/e88d2d9f8bd60127a04919267639d2af/Screen_Shot_2018-01-31_at_14.58.20.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Aurora Icelandair hotel Akureyri býður 2 fyrir 1 af hádegisréttamatseðli mánudaga til laugardaga frá kl. 11:30 - 14:00.",
+   "address": "Þingvallastræti 23",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    }
+   ]
+  },
+  {
+   "name": "Argentína steikhús",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6Dv3yAwc1iWiIM6AGgCMq4/466b7ede45c091e5c034d47d25bf1ee1/Screen_Shot_2018-01-05_at_10.20.23.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Argentína steikhús býður 2 fyrir 1 af tilboðsmatseðli. Í forrétt nauta Carpaccio og í aðalrétt glóðarsteiktur Dry aged rib eye hamborgari með grilluðum humarhala alla sunnudaga til fimmtudaga frá kl. 18:00-22:00.",
+   "address": "Barónsstígur 11a",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Smárabíó og Háskólabíó",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6CfzoVGdrOCkgM2IkA2cKU/db5df3708f47b6e484aa5f190f1d0702/2f1-Kubbur-1194x825-Smarabio_02.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Smárabíó og Háskólabíó bjóða 2 fyrir 1 af almennu miðaverði miðvikudaga og fimmtudaga. Gildir ekki á íslenskar myndir eða í lúxussal.",
+   "address": "Smáralind og Við Hagatorg",
+   "days": [
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    }
+   ]
+  },
+  {
+   "name": "Borgarbíó á Akureyri",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/4kQ4ZBNr5eIEWE6OYgMs2Q/6aba2e97ad0daaa311425f9c9b2d84b4/2f1-Kubbur-1194x825-Borgarbio.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Borgarbíó á Akureyri býður 2 fyrir 1 í bíó af almennu miðaverði alla miðvikudaga og fimmtudaga.",
+   "address": "Hólabraut 12",
+   "days": [
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    }
+   ]
+  },
+  {
+   "name": "American Style Tryggvagötu",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1IUnfGdBjKCCIUQigGKAmm/54c8f4fd5bde5f6942a764b99a2cb66d/American_style.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "American Style Tryggvagötu býður 2 fyrir 1 af öllum hamborgaramáltíðum alla daga frá kl. 11:00-21:00. Gildir ekki af öðrum tilboðum.",
+   "address": "Tryggvagötu 26",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Sushibarinn Kringlunni",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/dbr4OaiHPaAWmQ4gg8kcc/1631b83f3ba9bda8ea6761d9bee34d14/Screen_Shot_2018-02-01_at_11.56.30.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Sushibarinn Kringlunni býður 2 fyrir 1 af völdum take away bökkum. Gildir mánudaga - miðvikudaga frá 11:00 - 19:00",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    }
+   ]
+  },
+  {
+   "name": "Eldsmiðjan Árstúnshöfða",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6HIrVzESL6sQUC8GaQesGy/c7cf52e65aae1b887ae2397b532395a5/image1.jpeg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Eldsmiðjan Árstúnshöfða býður 2 fyrir 1 af miðstærð af pizzu mánudaga og þriðjudaga frá 11:00 - 23:00.",
+   "address": "Ártúnshöfði",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    }
+   ]
+  },
+  {
+   "name": "Eldsmiðjan á Dalvegi",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1TfaCVLl4MAOEKk6SseOea/5cbb5d2c590b98d2bdccd84c7c45cb78/2f1-Kubbur-1194x825-EldsmidjanDalv_02.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Eldsmiðjan á Dalvegi býður 2 fyrir 1 af miðstærð af pizzum á matseðli mánudaga, þriðjudaga og fimmtudaga frá 11:00 - 23:00 og lau- og sunnudaga frá 11:00 - 17:00 . Gildir ekki af tilboðum.",
+   "address": "Dalvegur 4",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Eldsmiðjan á Bragagötu",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6rRWvajiKWokuIgkO0akkA/e02d95fe7ab12e66384b230de3baa75b/2f1-Kubbur-1194x825-EldsmidjanBraga.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Eldsmiðjan á Bragagötu býður 2 fyrir 1 á miðstærð af pizzum af matseðli, mánudaga og þriðjudaga. Gildir til kl. 17:00 og ekki af tilboðum. Gildir í sal.",
+   "address": "Bragagata 38A",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    }
+   ]
+  },
+  {
+   "name": "Hannesarholt",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6N6b02jGlagCCmWewWUWOa/25c2a1b76831b3465ad61a002f2cd83b/Screen_Shot_2018-02-07_at_19.49.40.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Hannesarholt býður 2 fyrir 1 af matseðli mánudaga til miðvikudaga frá 11:30 - 14:00.",
+   "address": "Grundarstígur 10",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    }
+   ]
+  },
+  {
+   "name": "Smáratívolí",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/64EnRQmB5mEao6emKC2wCS/a9410540abb74430783dae179b42fa71/2f1-Kubbur-1194x825-SmaraTivoli.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Smáratívolí býður 2 fyrir 1 af tímakortum. Tímakortin gilda fyrir einn í 1 klukkutíma í öll tæki nema vinningstæki frá kl. 14:00-20:00 virka daga og 14:00-23:00 um helgar.",
+   "address": "Smáralind",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Aktu Taktu Fellsmúla",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/4ZUnNsVXoc6EcEwQCgsSOA/9c1496a0335affe962a71e80c6f1fa83/2f1-Kubbur-1194x825-AktuTaktu.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Aktu Taktu Fellsmúla býður 2 fyrir 1 af ostborgaratilboði laugardaga, sunnudaga og mánudaga.",
+   "address": "Fellsmúla 22",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Kringlukráin",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/2Ra0bSLXHy0UwcKkGYEM0U/7298b70d7ca09520a0d265dc1eb0fee3/2f1-Kubbur-1194x825-Kringlukrain.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Kringlukráin býður 2 fyrir 1 af pizzum mánudaga og þriðjudaga frá kl. 11:30-21:00.",
+   "address": "Kringlan",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    }
+   ]
+  },
+  {
+   "name": "Matarkjallarinn",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/5DrLhY3MxaE0y4iIEkEIEM/e2bad90e734e6ceab60f99c4df259698/Screen_Shot_2018-02-12_at_14.34.00.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Matarkjallarinn býður 2 fyrir 1 af fiskitvennu, hamborgara og hægelduðu andalæri mán- til föstudaga frá kl. 11:30 - 14:00.",
+   "address": "Aðalstræti 2",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "Inglot",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/18p1xH1HbsOKImiiEgUse6/e2c3b7538dbf380b0dbba6db708da063/Inglot_2f1.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Inglot Kringlunni býður 2 fyrir 1 af snyrtivörum mánudaga til miðvikudaga frá 10:00 - 18:30.",
+   "address": "Kringlan",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    }
+   ]
+  },
+  {
+   "name": "Nat.Kitchen",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/7fgLWvofKgMKWw0uiKSaqO/9d6e1144acfbbc3be56ff539f9a45cc0/2f1-Kubbur-1194x825-NatKitchen.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Nat.Kitchen býður 2 fyrir 1 af grænmetis lasagne og heilhveiti kjúklingapasta alla virka daga eftir kl. 17:00__",
+   "address": "Laugavegur 85",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "SALT Kitchen & Bar",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/5IossXEc0gyA4UGcmWMQ0k/c76d1b47dc8fe3e141f55664fe0deb0b/image001.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Salt Kitchen & Bar býður 2 fyrir 1 af öllum fiskréttum af matseðli frá 11:30 - 22:00 alla daga.",
+   "address": "Geirsgata 3",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Tapasbarinn",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1sQOOrhbnOIQW6cYiUKo8M/3f23804e9360d7c0e52dc5d41218d73e/2f1-Kubbur-1194x825-Tapasbarinn.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Tapasbarinn býður 2 fyrir 1 af óvissuferð mánudaga og þriðjudaga frá 17:00 - 23:30__. Gildir ekki fyrir hópa, 8 manns eða fleiri.",
+   "address": "Vesturgata 3b",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    }
+   ]
+  },
+  {
+   "name": "Apotek Kitchen & Bar",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6gzRNVNV16ICC8WM84kU4K/f1235607ee81f2630d0bece533634d02/2f1-Kubbur-1194x825-Apotek.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Apotek kitchen + bar býður 2 fyrir 1 af af aðalréttum í hádeginu frá __kl. 11:30-14:30 mánudaga til miðvikudaga.",
+   "address": "Austurstræti 18",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    }
+   ]
+  },
+  {
+   "name": "Burro tapas & steaks",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/27SDgDd1Qw84UCEwUAiqsG/786aa783b5cba56e8827d6662ee46bb4/Unknown-2.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Burro býður 2 fyrir 1 af óvissuferð sem gildir fyrir allt borðið mánudaga og þriðjudaga frá 17:00 - 23:00.",
+   "address": "Veltusundi 1",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    }
+   ]
+  },
+  {
+   "name": "Sæta svínið",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/354mEdLGgUEQ24cs2sAmgM/43eb8f4d70b8210c0714a51874b07d52/2f1-Kubbur-1194x825-SaetaSvinid.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Sæta svínið býður 2 fyrir 1 af aðalréttum í hádeginu mánudaga til föstudaga frá kl. 11:30-14:30.",
+   "address": "Hafnarstræti 1-3",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "Sushi Social",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/4L8YWarbS8sO4EKWC8scGM/dae1c1314abe0151e7e4784f35a72c18/2f1-Kubbur-1194x825-SushiSocial.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Sushi Social býður 2 fyrir 1 af 4 rétta sushi og naut seðli mánudaga og þriðjudaga. Gildir ekki fyrir hópa 8 manns og fleiri.",
+   "address": "Þingholtsstræti 5",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    }
+   ]
+  },
+  {
+   "name": "Lebowski Bar",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/Q0p4q6RUuyK2w4UmCMacs/a8b5d34dba69ec474b41935864a95020/2f1-Kubbur-1194x825-Lebowski.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Lebowski Bar býður 2 fyrir 1 af hamborgaramáltíðum mánudaga til fimmtudaga frá kl. 11:00 til 15:00. Gildir ekki í take away.",
+   "address": "Laugavegur 20a",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    }
+   ]
+  },
+  {
+   "name": "Red Chili",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/19LhOUVk3UOSOAA0wCwQUA/5071eb7c91306e9eac988b8f73dc3510/2f1-Kubbur-1194x825-RedChilly.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Red Chili býður 2 fyrir 1 af Fajitas Classic. Funheit panna með kjúklingabringum og grænmeti ásamt tilheyrandi meðlæti og pönnukökum virka daga frá kl. 14:00-17:00, laug- og sunnudaga frá kl. 11:00-17:00. Gildir í sal.",
+   "address": "Laugavegur 176",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Frederiksen",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1GjKxJJgtyykcUMGmYyUcq/d62b0c48c35f60949192a0acf27859c8/image1.JPG?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Frederiksen býður 2 fyrir 1 af hádegismatseðli frá 11:00 - 16:00 alla virka daga. Gildir ekki af take away og öðrum tilboðum.",
+   "address": "Hafnarstræti 5",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "Þrastalundur",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6qQ9Y7hYqWe8A0O0Qke4Kg/27bd230ec4d0cba45033c60b1fe11592/Screen_Shot_2018-01-11_at_12.48.00.png?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Þrastalundur býður 2 fyri 1 af morgunmat til kl. 12:00 alla virka daga, af eldbökuðum pizzum frá 11:30 – 17:00, alla virka daga og af brunch föstudaga frá 11:00 – 16:00.",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    }
+   ]
+  },
+  {
+   "name": "Gríska húsið",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/2AojBsQKqoQYmCGCmiOI0c/da98892eb567fe69ad82e45a60f51425/mynd_doner.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Gríska húsið býður 2 fyrir 1 af doner nr. 1 alla virka daga frá 14:00 - 18:00.",
+   "address": "Spöngin 15",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  },
+  {
+   "name": "Trainer.is",
+   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/3nOWQLn5JSmSwa2GI2cy8g/b54d1000f3cb5f134be55c6c69563316/Sif_Dekk.jpg?fm=jpg&fl=progressive&w=615",
+   "twoForOne": "2 fyrir 1",
+   "about": "Trainer.is býður 2 fyrir 1 af fjarþjálfun eða næringarþjàlfun. Sendu fyrirspurn á trainer@trainer.is",
+   "days": [
+    {
+     "name": "Mán"
+    },
+    {
+     "name": "Þri"
+    },
+    {
+     "name": "Mið"
+    },
+    {
+     "name": "Fim"
+    },
+    {
+     "name": "Fös"
+    },
+    {
+     "name": "Lau"
+    },
+    {
+     "name": "Sun"
+    }
+   ]
+  }
+ ]
+}

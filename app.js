@@ -119,11 +119,11 @@ app.get('/', (req, res) => {
 });
 
 // Error if website path does not exist
-app.use((req, res, next) => {
-    const err = new Error('Síða fannst ekki!');
-    err.status = 404;
-    next(err);
-});
+//app.use((req, res, next) => {
+    //const err = new Error('Síða fannst ekki!');
+    //err.status = 404;
+    //next(err);
+//});
 
 
 app.listen(3000, function(){
