@@ -5,6 +5,9 @@ const foodMock = require('./foodMock');
 
 const app = express();
 
+// Variables for json objects
+app.locals.nova = require('./nova.json');
+
 // View Engine
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -19,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Dummy nova food
+
 const foodNova = [
     {
         name: 'Hressó',
