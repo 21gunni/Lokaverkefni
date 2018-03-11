@@ -44,7 +44,7 @@
         <h3>Nova Tilboð</h3>
         <section class="Tilbod_2">
             <div class="flexingItems">
-                <% nova.novaPlaces.forEach(function(food){ %>
+                <% nova.novaPlaces.forEach(function (food){ %>
             </div>
                 <div class="Tilbodin">
                     <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
@@ -59,6 +59,7 @@
 
                     <div class="Location">
                         <p><%= food.address %></p>
+                        <p><%= JSON.stringify(food.days) %></p>
                     </div>
                 </div>
                 <% }) %>
