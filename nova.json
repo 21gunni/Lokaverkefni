@@ -183,18 +183,6 @@
    ]
   },
   {
-   "name": "Snyrtistofa Ágústu",
-   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/28MGAONUpGygGCEGWgGeEc/e095911006983670cc46708893b22c87/IMG_6209.JPG?fm=jpg&fl=progressive&w=615",
-   "twoForOne": "2 fyrir 1",
-   "about": "Snyrtistofan Ágústa var að flytja í Faxafen 5 og býður 2 fyrir 1 í litun og plokkun alla mánudaga í mars. Tímapantanir í síma 552 9070",
-   "address": "Faxafen 5",
-   "days": [
-    {
-     "name": "Mán"
-    }
-   ]
-  },
-  {
    "name": "Sakebarinn",
    "img": "https://images.ctfassets.net/j5d5y4z9f7ki/657OdiLrmoYgqOw2sYYY8C/103a0eb0d5c1b3ec1562920c2ae8c9b0/Screen_Shot_2018-01-30_at_15.55.40.png?fm=jpg&fl=progressive&w=615",
    "twoForOne": "2 fyrir 1",
@@ -363,36 +351,6 @@
    ]
   },
   {
-   "name": "Smárabíó og Háskólabíó",
-   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/6CfzoVGdrOCkgM2IkA2cKU/db5df3708f47b6e484aa5f190f1d0702/2f1-Kubbur-1194x825-Smarabio_02.jpg?fm=jpg&fl=progressive&w=615",
-   "twoForOne": "2 fyrir 1",
-   "about": "Smárabíó og Háskólabíó bjóða 2 fyrir 1 af almennu miðaverði miðvikudaga og fimmtudaga. Gildir ekki á íslenskar myndir eða í lúxussal.",
-   "address": "Smáralind og Við Hagatorg",
-   "days": [
-    {
-     "name": "Mið"
-    },
-    {
-     "name": "Fim"
-    }
-   ]
-  },
-  {
-   "name": "Borgarbíó á Akureyri",
-   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/4kQ4ZBNr5eIEWE6OYgMs2Q/6aba2e97ad0daaa311425f9c9b2d84b4/2f1-Kubbur-1194x825-Borgarbio.jpg?fm=jpg&fl=progressive&w=615",
-   "twoForOne": "2 fyrir 1",
-   "about": "Borgarbíó á Akureyri býður 2 fyrir 1 í bíó af almennu miðaverði alla miðvikudaga og fimmtudaga.",
-   "address": "Hólabraut 12",
-   "days": [
-    {
-     "name": "Mið"
-    },
-    {
-     "name": "Fim"
-    }
-   ]
-  },
-  {
    "name": "American Style Tryggvagötu",
    "img": "https://images.ctfassets.net/j5d5y4z9f7ki/1IUnfGdBjKCCIUQigGKAmm/54c8f4fd5bde5f6942a764b99a2cb66d/American_style.jpg?fm=jpg&fl=progressive&w=615",
    "twoForOne": "2 fyrir 1",
@@ -512,36 +470,6 @@
    ]
   },
   {
-   "name": "Smáratívolí",
-   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/64EnRQmB5mEao6emKC2wCS/a9410540abb74430783dae179b42fa71/2f1-Kubbur-1194x825-SmaraTivoli.jpg?fm=jpg&fl=progressive&w=615",
-   "twoForOne": "2 fyrir 1",
-   "about": "Smáratívolí býður 2 fyrir 1 af tímakortum. Tímakortin gilda fyrir einn í 1 klukkutíma í öll tæki nema vinningstæki frá kl. 14:00-20:00 virka daga og 14:00-23:00 um helgar.",
-   "address": "Smáralind",
-   "days": [
-    {
-     "name": "Mán"
-    },
-    {
-     "name": "Þri"
-    },
-    {
-     "name": "Mið"
-    },
-    {
-     "name": "Fim"
-    },
-    {
-     "name": "Fös"
-    },
-    {
-     "name": "Lau"
-    },
-    {
-     "name": "Sun"
-    }
-   ]
-  },
-  {
    "name": "Aktu Taktu Fellsmúla",
    "img": "https://images.ctfassets.net/j5d5y4z9f7ki/4ZUnNsVXoc6EcEwQCgsSOA/9c1496a0335affe962a71e80c6f1fa83/2f1-Kubbur-1194x825-AktuTaktu.jpg?fm=jpg&fl=progressive&w=615",
    "twoForOne": "2 fyrir 1",
@@ -595,24 +523,6 @@
     },
     {
      "name": "Fös"
-    }
-   ]
-  },
-  {
-   "name": "Inglot",
-   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/18p1xH1HbsOKImiiEgUse6/e2c3b7538dbf380b0dbba6db708da063/Inglot_2f1.jpg?fm=jpg&fl=progressive&w=615",
-   "twoForOne": "2 fyrir 1",
-   "about": "Inglot Kringlunni býður 2 fyrir 1 af snyrtivörum mánudaga til miðvikudaga frá 10:00 - 18:30.",
-   "address": "Kringlan",
-   "days": [
-    {
-     "name": "Mán"
-    },
-    {
-     "name": "Þri"
-    },
-    {
-     "name": "Mið"
     }
    ]
   },
@@ -861,35 +771,6 @@
    "twoForOne": "2 fyrir 1",
    "about": "Gríska húsið býður 2 fyrir 1 af doner nr. 1 alla virka daga frá 14:00 - 18:00.",
    "address": "Spöngin 15",
-   "days": [
-    {
-     "name": "Mán"
-    },
-    {
-     "name": "Þri"
-    },
-    {
-     "name": "Mið"
-    },
-    {
-     "name": "Fim"
-    },
-    {
-     "name": "Fös"
-    },
-    {
-     "name": "Lau"
-    },
-    {
-     "name": "Sun"
-    }
-   ]
-  },
-  {
-   "name": "Trainer.is",
-   "img": "https://images.ctfassets.net/j5d5y4z9f7ki/3nOWQLn5JSmSwa2GI2cy8g/b54d1000f3cb5f134be55c6c69563316/Sif_Dekk.jpg?fm=jpg&fl=progressive&w=615",
-   "twoForOne": "2 fyrir 1",
-   "about": "Trainer.is býður 2 fyrir 1 af fjarþjálfun eða næringarþjàlfun. Sendu fyrirspurn á trainer@trainer.is",
    "days": [
     {
      "name": "Mán"

@@ -39,7 +39,30 @@
 
                 </div>
             <% }) %>           
-		</section>
+        </section>
+        
+        <h3>Nova Tilboð</h3>
+        <section class="Tilbod_2">
+            <div class="flexingItems">
+                <% nova.novaPlaces.forEach(function(food){ %>
+            </div>
+                <div class="Tilbodin">
+                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+
+                    <div class="eventName">
+                        <p class ="stadurNafn"><%= food.name %></p>
+                    </div>
+
+                    <div class="about">
+                        <p class="stadurUppl"><%= food.about %></p>
+                    </div>
+
+                    <div class="Location">
+                        <p><%= food.address %></p>
+                    </div>
+                </div>
+                <% }) %>
+        </section>
 
 		<section class="Tilbod_2">
             <div class="flexingItems">
