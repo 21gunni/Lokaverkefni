@@ -19,6 +19,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 // Set Static Path
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Testing double loops for nova
 
 
 // Dummy nova food
