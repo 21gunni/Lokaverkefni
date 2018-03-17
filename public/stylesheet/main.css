@@ -1,3 +1,4 @@
+
 h1 {
     color: black;
 	text-align: center;
@@ -18,21 +19,27 @@ h1 {
 .Logo {
     display: block;
     margin:0px auto;
-    max-width:300px;
+    max-width:250px;
     
 }
+
+
 
 /*Tilbods svæðið*/
 
 .Tilbod_1{
-	background-color:rgb(0, 0, 0);
-	padding: 5% 10%;
+	background-color: white;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
 	margin-top: 1%;
 	display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 2.5%;
+
+    overflow-x: auto;
+    
 }
 
 .flexingItems {
@@ -43,16 +50,20 @@ h1 {
     padding-bottom: 2.5%;
 }
 
+
 .Tilbodin {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 24%;
     min-width: 290px;
-    margin-bottom: 2.5%;
+    height: 450px;
+
     background-color: white;
+    margin:5px;
 }
 
 .Brynjar {
-	width: 100%;
+    width: 100%;
+    height:50%;
 }
 
 .stadurNafn {
@@ -62,6 +73,10 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     color: #000000;
+}
+
+.stadurUppl {
+    margin-left: 2%;
 }
 
 .Dagsetning {
@@ -86,35 +101,44 @@ h1 {
 
 
 .Tilbod_2{
-	background-color:white;
-	padding: 5% 10%;
+	background-color:#54CBD3;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
 	margin-top: 1%;
 	display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 2.5%;
+    overflow-x: auto;
+
 }
 .Tilbod_3{
-	background-color:rgb(0, 0, 0);
-	padding: 5% 10%;
+	background-color:white;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
 	margin-top: 1%;
 	display: flex;
-    flex-wrap: wrap;
+
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 2.5%;
+
+    overflow-x: auto;
 }
 
 .Tilbod_4{
-	background-color:white;
-	padding: 5% 10%;
+	background-color:#54CBD3;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
 	margin-top: 1%;
 	display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 2.5%;
+    overflow-x: auto;
 }
 
 

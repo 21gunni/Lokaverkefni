@@ -15,38 +15,64 @@
         </section>
     </header>
     <main>
-        <h3 class="places">t.d .. vodafone rúnk tilboð</h3>
         <div>
         </div>
-		<section class="Tilbod_1">
-            <div class="flexingItems">
-             <% foodNova.forEach(function(food){ %>
-            </div>
-                <div class ="Tilbodin">
-                    <img class ="Brynjar" src="https://i.imgur.com/Kvf7Z92.jpg" alt="brynjarEating">
-                
+
+        <section class="Tilbod_1">
+
+                <% nova.novaPlaces.forEach(function (food){ %>
+
+                <div class="Tilbodin">
+                    
+                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+
                     <div class="eventName">
                         <p class ="stadurNafn"><%= food.name %></p>
                     </div>
 
-                    <div class="Dagsetning">
-                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
+                    <div class="about">
+                        <p class="stadurUppl"><%= food.about %></p>
                     </div>
 
                     <div class="Location">
-                        <p><%= food.location %></p>
+                        <p><%= food.address %></p>
+                        <p><%= JSON.stringify(food.days) %></p>
                     </div>
-
                 </div>
-            <% }) %>           
+                <% }) %>
         </section>
         
-        <h3>Nova Tilboð</h3>
+
         <section class="Tilbod_2">
-            <div class="flexingItems">
+
                 <% nova.novaPlaces.forEach(function (food){ %>
-            </div>
+
                 <div class="Tilbodin">
+                    
+                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+
+                    <div class="eventName">
+                        <p class ="stadurNafn"><%= food.name %></p>
+                    </div>
+
+                    <div class="about">
+                        <p class="stadurUppl"><%= food.about %></p>
+                    </div>
+
+                    <div class="Location">
+                        <p><%= food.address %></p>
+                        <p><%= JSON.stringify(food.days) %></p>
+                    </div>
+                </div>
+                <% }) %>
+        </section>
+		
+        <section class="Tilbod_3">
+
+                <% nova.novaPlaces.forEach(function (food){ %>
+
+                <div class="Tilbodin">
+                    
                     <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
                     <div class="eventName">
@@ -65,101 +91,30 @@
                 <% }) %>
         </section>
 
-		<section class="Tilbod_2">
-            <div class="flexingItems">
-                <% foodSiminn.forEach(function(food){ %>
-            </div>
-                <div class ="Tilbodin">
-                    <img class ="Brynjar" src="https://i.imgur.com/tfc7pAV.jpg" alt="brynjarEating">
-                
+        <section class="Tilbod_4">
+
+                <% nova.novaPlaces.forEach(function (food){ %>
+
+                <div class="Tilbodin">
+                    
+                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+
                     <div class="eventName">
                         <p class ="stadurNafn"><%= food.name %></p>
                     </div>
 
-                    <div class="Dagsetning">
-                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
-                    </div>
-
-                    <div class="Location">
-                        <p><%= food.location %></p>
-                    </div>
-
-                </div>
-            <% }) %>   
-		</section>
-		
-		<section class="Tilbod_3">
-            <div class="flexingItems">
-                <% food2f1.forEach(function(food){ %>
-            </div>
-                <div class ="Tilbodin">
-                    <img class ="Brynjar" src="https://i.imgur.com/Kvf7Z92.jpg" alt="brynjarEating">
-                
-                    <div class="eventName">
-                        <p class ="stadurNafn"><%= food.name %></p>
-                    </div>
-
-                    <div class="Dagsetning">
-                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
-                    </div>
-
-                    <div class="Location">
-                        <p><%= food.location %></p>
-                    </div>
-
-                </div>
-            <% }) %>  
-		</section>
-
-		<section class="Tilbod_4">
-            <div class="flexingItems">
-                <% foodVodafone.forEach(function(food){ %>
-            </div>
-                <div class ="Tilbodin">
-                    <img class ="Brynjar" src="https://i.imgur.com/tfc7pAV.jpg" alt="brynjarEating">
-                
-                    <div class="eventName">
-                        <p class ="stadurNafn"><%= food.name %></p>
-                    </div>
-
-                    <div class="Dagsetning">
-                        <p>2 fyrir 1  <%= food.dates %> á milli <%= food.time %> </p>
-                    </div>
-
-                    <div class="Location">
-                        <p><%= food.location %></p>
-                    </div>
-
-                </div>
-            <% }) %> 
-        </section>
-        
-        <section class="Tilbod_test">
-            <div class="flexingItems">
-             <% nova.novaPlaces.forEach(function(food){ %>
-            </div>
-                <div class ="Tilbodin">
-                    <img class ="Brynjar" src="<%=food.img%>" alt="brynjarEating">
-                
-                    <div class="eventName">
-                        <p class ="stadurNafn"><%= food.name %></p>
-                    </div>
-
-                    <div>
-                        <p><%= food.about %></p>
-                    </div>
-
-                    <div class="Dagsetning">
-                        <p> <%=  %> </p>
+                    <div class="about">
+                        <p class="stadurUppl"><%= food.about %></p>
                     </div>
 
                     <div class="Location">
                         <p><%= food.address %></p>
+                        <p><%= JSON.stringify(food.days) %></p>
                     </div>
-
                 </div>
-            <% }) %>           
-		</section>
+                <% }) %>
+        </section>
+        
 
     </main>
     <footer>
