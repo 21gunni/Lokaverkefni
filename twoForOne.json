@@ -1,0 +1,274 @@
+{
+ "twoForOnePlaces": [
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    },
+    {
+     "name": "mið"
+    },
+    {
+     "name": "fim"
+    },
+    {
+     "name": "fös"
+    },
+    {
+     "name": "lau"
+    },
+    {
+     "name": "sun"
+    }
+   ],
+   "time": "11:30 - 16:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/islenski_barinn_425x220jpg.jpg",
+   "name": "Íslenski barinn",
+   "address": "Ingólfsstræti 1a",
+   "about": "2fyrir1 á milli kl. 11:30-16:00 alla daga.\nÍslandsborgari. 150 gr nautaborgari, norðlensk sjoppusósa ostur, salat og vöfflufranskar."
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mið"
+    },
+    {
+     "name": "fim"
+    }
+   ],
+   "time": "17:30 - 18:30",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/2fyrir1_forsidu_bannerB_425x220png.png",
+   "name": "Nostra veitingahús",
+   "address": "Nostra veitingahús\nLaugavegi 59\n101 Reykjavík\n5193535",
+   "about": "Við höfum hannað matarupplifun þar sem kokkarnir okkar nýta fersk hráefni úr náttúru Íslands sem þeir hafa bæði týnt sjálfir og fengið hjá betri bændum landsins. Kokkarnir reyna að sjálfsögðu að fá sem mest af lífrænt ræktuðu hráefni og takmarka matarsóun. Síðan skemmir ekki fyrir að þeir eru algjörir snillingar þegar kemur að matseld og finnst þeim skemmtilegast að gera tilraunir og búa til nýja rétti til þess að koma gestunum okkar skemmtilega á óvart. Sjá nánar á: Nostrarestaurant.is\n2 fyrir 1 gildir á okkar vinsælu 4 og 6 rétta matseðlum milli 17:30 og 19:00,\nFylgist með Nostra á Facebook og Instagram\n\b\nGildir ekki fyrir hópa 7 manns og fleiri. Tilboðið gildir ekki fyrir drykki. Tilboðið gildir aðeins gegn framvísun í snjallsíma eða útprentun á blaði og gildir ekki með öðrum tilboðum, né á sérviðburðum eins Food&Fun."
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    },
+    {
+     "name": "mið"
+    },
+    {
+     "name": "fim"
+    },
+    {
+     "name": "fös"
+    },
+    {
+     "name": "lau"
+    },
+    {
+     "name": "sun"
+    }
+   ],
+   "time": "17:00 - 23:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/smakk_425x220jpg.jpg",
+   "name": "Smakkbarinn",
+   "address": "Smakkbarinn\nKlapparstíg 38\n101 Reykjavík\n774 4404",
+   "about": "2 fyrir 1 af sex krukkum að vali kokksins. Kaupir 6 krukkur aðsins 600 kr. krukan en færð 12 krukkur.\nSunnudagur - Mándagur - Þriðjudagur Miðvikudagur frá kl 17:00 til 23:00\nFimmtudagur - Föstudagur - Laugadagur frá 12:00 - 23:00 (gildistími tilboðs)\nGildir aðeins á staðnum"
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    },
+    {
+     "name": "mið"
+    },
+    {
+     "name": "fim"
+    },
+    {
+     "name": "fös"
+    },
+    {
+     "name": "lau"
+    },
+    {
+     "name": "sun"
+    }
+   ],
+   "time": "15:00 - 18:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/HRC_forsida_mars18jpg.jpg",
+   "name": "Hard Rock Café",
+   "address": "Hard Rock Café\nLækjargata 2\n101 Reykjavík\n560 0800",
+   "about": "Hard Rocking Hours á Hard Rock Cafe frá 15.00 til 18.00 alla daga.\nHardRocking Menu\n½ Nachos 990 kr Chicken Wings 990 kr Onion Rings 990 kr Quesadillas with pulled Pork 1.390 kr 2 mini Burgers with Fries 1.390 kr Louisiana Chicken Tenders with Fries 1.390 kr HardRocking Drinks\nBoli 0,5L 790 kr Corona 790 krCorona Bucket 3.500 kr White Wine. 790 kr Red Wine 790 kr Bahama Mama 1.490 kr Banana Berry Colada 1.490kr Big Kablue-na 1.490 kr Southern Rock1.490 kr"
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    }
+   ],
+   "time": "17:00 - 23:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/Naut_425x220_nov2017pngpng.png",
+   "name": "Sushi Social",
+   "address": "Sushi Social\nÞingholtstræti 5\n101 Reykjavík\n568 66 00",
+   "about": ".\n2 fyrir 1 af sushi&naut seðli mánudaga og þriðjudaga til 27 Mars\n.\nSushi&naut 4 rétta seðill\nHin fullkomna blanda !\nSurf and turf – 4 bitar\nAvókadó, humar tempura, nauta-carpaccio, teriyaki, spicy mayo, chili crumble\nNigiri – 3 bitar\nLaxa nigiri – Jalapeno mayo, wakame\nTúnfisk nigiri – Jalapeno mayo, kimchee\nGullsporða nigir\nNautalund\nLauksulta, sellerýrótarmayo, kardimommugljái\nHægt er að breyta nautalund í:\nGrillaður lax\nMangó-gúrkusalsa, plantain-flögur, chilifroða, dill\nSúkkulaði fudge\nSúkkulaði fudge með blönduðum ávöxtum, karamellusósu og mjólkursorbet\nVerð 7.900 kr.\nSeðillinn er á aðeins 3.950 kr. á mann þegar tilboðið er notað.\n.\nGildir bara mánudaga og þriðjudaga til 27 Mars\nGildir fyrir allt borðið og gildir ekki fyrir hópa 8 manns eða fleiri\nTilboðið gildir aðeins gegn framvísun miðans eða með snjallsíma.\nEndilega pantið borð í síma: 568 6600\nEldhúsið er opið frá 17:00 - 23:00\nHlökkum til að sjá þig !"
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    }
+   ],
+   "time": "17:00 - 23:30",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/425x220_april2017jpgjpg.jpg",
+   "name": "Tapas-barinn",
+   "address": "Tapas-barinn\nVesturgata 3b\n101 Reykjavík\n551 2344",
+   "about": "2fyrir1 af óvissuferðMánudaga og þriðjudaga til 27 Mars\n.\nÓvissuferðHefst með léttum fordrykkMatreiðslumeistarinn velur 7 tapasrétti – góð blanda af kjöti, fiski og grænmetiOg í lokin – eftirréttur að hætti matreiðslumeistarans8.690 kr.\n.\nÓvissuferðin er á aðeins 4.345 kr. þegar tilboðið er notað.\nGildir ekki fyrir hópa stærri en 8 mannsTilboð gildir aðeins gegn framvísun miðans eða með snjallsímaEndilega pantið borð í síma: 551 2344"
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "sun"
+    }
+   ],
+   "time": "17:00 - 23:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/sushisocialjpg_(1)jpgjpgjpg.jpg",
+   "name": "Sushi Social",
+   "address": "Sushi Social\nÞingholtstræti 5\n101 Reykjavík\n568 66 00",
+   "about": "2 fyrir 1 af öllum sushi rúllum af seðli á sunnudögum\nGreitt er fyrir dýrari rúlluna.\n.\nGildir ekki fyrir hópa 8 manns eða fleiri\nTilboðið gildir til 25 Mars\nTilboðið gildir aðeins gegn framvísun miðans eða með snjallsíma.Endilega pantið borð í síma: 568 6600Eldhúsið er opið frá 17:00 - 23:00Hlökkum til að sjá þig !"
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "lau"
+    },
+    {
+     "name": "sun"
+    }
+   ],
+   "time": "11:30 - 14:30",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/425x220_sept2017_Ponnukokurpng.png",
+   "name": "Sæta Svínið",
+   "address": "Sæta Svínið\nHafnarstræti 1-3\n101 Reykjavík\n5552900",
+   "about": "Sæta Svínið gastropub býður 2 fyrir 1 af réttum á brunch-seðli á laugardögum og sunnudögum til 31 Mars, frá 11.30 - 14.30\nGildir af eftirfarandi réttum:\n.Mega brunch\n.CR Q madame\n.Ekta amerískar pönnukökur\n.Vöfflusamloka\n.Lambaöxl á súrdeigsbrauði\n.Nammivaffla\nGreitt er fyrir dýrari réttinn.\nGildir ekki fyrir hópa, 8 manns og fleiri, eða með öðrum tilboðum."
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    },
+    {
+     "name": "mið"
+    },
+    {
+     "name": "fim"
+    }
+   ],
+   "time": "13:00 - 18:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/kebab425x220jpg.jpg",
+   "name": "Castello",
+   "address": "Castello\nDalshraun 13\n220 Hafnarfirði\n577-3333",
+   "about": "30% afsláttur af Durum Kebab kjúklinga/lamba máltíð\nGildir mánudaga til fimmtudaga kl. 13:00 til 18:00\nGildir aðeins í Dalshrauni 13"
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    },
+    {
+     "name": "mið"
+    },
+    {
+     "name": "fim"
+    },
+    {
+     "name": "fös"
+    },
+    {
+     "name": "lau"
+    },
+    {
+     "name": "sun"
+    }
+   ],
+   "time": "11:00 - 17:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/Bk_kjullijpg.jpg",
+   "name": "BK Kjúklingur",
+   "address": "BK Kjúklingur\nGrensásvegi 5\n108 Reykjavík\n588-8585",
+   "about": "Hádeigstilboð\nÞrír djúpsteiktir kjúklingaleggir franskar, kotelsósa og coke eða Coke Zero í dós\nVerð 1890\nTilboð 1250\nþú sparar 640 kr.\nAðaláherslan er lögð á rétti úr sérmarinerðum grilluðum kjúkling, mest á heilsusamlega rétti sem henta þeim sem hugsa um heilsuna. Einnig er þó boðið upp á djúpsteikta kjúklingabita og franskar handa þeim sem það vilja. Jafnframt eru í boði ýmsar gerðir af samlokum og hamborgurum auk nokkurra mexíkanskra rétta."
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    },
+    {
+     "name": "mið"
+    },
+    {
+     "name": "sun"
+    }
+   ],
+   "time": "09:00 - 22:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/lebistrojpg.jpg",
+   "name": "Le Bistro",
+   "address": "Le Bistro\nLaugavegur 12\n101 Reykjavík\n5515979",
+   "about": "2 fyrir 1 af á aðalréttum frá sunnudagi til miðvikudaga allan daginn. Gildir ekki með öðrum tilboðum\nGildir gegn útprentun miða eða með því að sýna í útprentun í snjallsíma\nEldhúsið er opið frá kl.9:00 - 22:00\nGildir fyrir allt borðið og gildir ekki fyrir hópa 8 manns eða fleiri.\nÁrshátíðargleði Við bjóðum 30% afslátt allan febrúarmánuð þeim sem koma með 10-30 manna hóp. Bóka þarf fyrirfram með því að senda póst á lebistro@lebistro.is - Hlökkum til að setja saman dásamlegan árshátíðarmatseðil fyrir ykkur.\nLe Bistro á facebook\nhttp://www.lebistro.is"
+  },
+  {
+   "info": "NÁNAR",
+   "days": [
+    {
+     "name": "mán"
+    },
+    {
+     "name": "þri"
+    },
+    {
+     "name": "mið"
+    },
+    {
+     "name": "fim"
+    },
+    {
+     "name": "fös"
+    }
+   ],
+   "time": "11:00 - 14:00",
+   "img": "http://www.2fyrir1.is/vefurinn/images/logo/425x220_bikeCave_copyjpg.jpg",
+   "name": "Bike Cave",
+   "address": "Bike Cave\nEinarsnesi 36, 7703113\n101 Reykjavík\n-",
+   "about": "20% afsláttur af völdum borgurum, með frönskum og gosi.\nBike Cave er lítið fjölskyldufyrirtæki sem hefur þá hugsjón að bjóða ávallt upp á góðan mat á frábæru verði, og gefa venjulegu fólki kost á því að fara endrum og sinnum út að borða án þess að þurfi að borga hálfan handlegg fyrir.Við í Bike Cave leitum ekki að einnota viðskiptavinum heldur viljum við sjá ánægða viðskiptavini koma aftur og aftur. Matseðil má sjá á www.bikecave.is/veitingar"
+  }
+ ]
+}
