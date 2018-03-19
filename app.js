@@ -7,6 +7,7 @@ const app = express();
 // Variables for json objects
 app.locals.nova = require('./nova.json');
 app.locals.vodafone = require('./vodafone.json');
+app.locals.twoForOne = require('./twoForOne.json');
 
 // View Engine
 app.set('view engine', 'ejs');
