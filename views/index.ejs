@@ -45,7 +45,7 @@
 
         <section class="Tilbod_2">
 
-                <% nova.novaPlaces.forEach(function (food){ %>
+                <% vodafone.vodafonePlaces.forEach(function (food){ %>
 
                 <div class="Tilbodin">
                     
@@ -60,8 +60,8 @@
                     </div>
 
                     <div class="Location">
-                        <p><%= food.address %></p>
-                        <p><%= JSON.stringify(food.days) %></p>
+                        <p><%= food.website_url %></p>
+                        <!--<p><%= JSON.stringify(food.days) %></p>-->
                     </div>
                 </div>
                 <% }) %>
