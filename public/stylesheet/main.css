@@ -1,3 +1,17 @@
+body {
+    //padding-top: 3.5rem;
+    background-color: #fafafa;
+    margin:0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
 
 h1 {
     color: black;
@@ -16,6 +30,12 @@ h1 {
     padding-top:5%;
 }
 
+.navLogo {
+    padding: .5rem 1rem;
+    align-items: :Center;
+    max-width:100px;
+
+}
 .Logo {
     display: block;
     margin:0px auto;
@@ -39,6 +59,8 @@ h1 {
     justify-content: space-between;
 
     overflow-x: auto;
+
+    
     
 }
 
@@ -59,6 +81,7 @@ h1 {
 
     background-color: white;
     margin:5px;
+    
 }
 
 .Brynjar {
@@ -146,7 +169,7 @@ h1 {
 /*Footer section*/
 
 .Footer-section {
-	background-color: black;
+	background-color: white;
 	padding: 5% 5%;
 	font-weight: bold;
 	font-size: 18px;
