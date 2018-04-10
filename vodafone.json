@@ -16,7 +16,7 @@
   },
   {
    "name": "Apotek Kitchen + Bar",
-   "about": "2 fyrir 1 af aðalréttum frá kl. 11:30 til 14:30 mánudaga til miðvikudaga. Gildir ekki fyrir hópa 8 manns eða fleiri né með öðrum tilboðum.",
+   "about": "2 fyrir 1 af aðalréttum frá kl. 11:30 til 14:30 mánudaga til fimmtudaga. Gildir ekki fyrir hópa 8 manns eða fleiri né með öðrum tilboðum.",
    "img": "https://vodafone.is/library/VIP/Apotekid-424x212.jpg",
    "website": "",
    "website_url": "http://apotekrestaurant.is/"
@@ -29,9 +29,11 @@
    "website_url": "http://www.bambusrestaurant.is/"
   },
   {
-   "name": "Burro Tapas + Steaks",
-   "about": "2 fyrir 1 af óvissuferð frá kl. 17:00 til 23:00, mánudaga og þriðjudaga.",
-   "img": "https://vodafone.is/library/Myndir/Siduhlutar/Farsimi/Burro_424x212%20(002).jpg"
+   "name": "Bambus.is",
+   "about": "40% afsláttur af grænu skvísunum í verslun okkar í Borgartúni 3.",
+   "img": "https://vodafone.is/library/VIP/Bambus_skvisur_Vodafone_424x212.jpg",
+   "website": "",
+   "website_url": "http://www.bambus.is/little_green_pouch1?keyword=skv%c3%ads&category_id=0"
   },
   {
    "name": "Café Haiti",
@@ -42,17 +44,10 @@
   },
   {
    "name": "Culiacan",
-   "about": "25% afsláttur af 5 manna fjölskyldu- og partýplatta Verð með afslætti 6.337 kr.",
-   "img": "https://vodafone.is/library/VIP/Culiacan-424x212.jpg",
+   "about": "20% afsláttur af Torta bakka þar sem notast er m.a. við súrdeigsbrauð frá Bauð & co. Bakkinn er fyrir 8-10 manns og verð með afslætti er 7.920 kr.",
+   "img": "https://vodafone.is/library/VIP/culiacan_april_424x212.jpg",
    "website": "",
    "website_url": "http://www.culiacan.is/"
-  },
-  {
-   "name": "Cupcake Café",
-   "about": "2 fyrir 1 af öllum kökum í borði, alla virka daga frá kl. 10:00-17:00.",
-   "img": "https://vodafone.is/library/VIP/Cupcake_cafe-424x212.jpg",
-   "website": "",
-   "website_url": "http://cupcakecafe.is/"
   },
   {
    "name": "Einsi Kaldi",
@@ -70,8 +65,8 @@
   },
   {
    "name": "Fridays",
-   "about": "2 fyrir 1 af Jack Daniels hamborgara með frönskum og/eða Ceasar salati frá kl. 11:30 - 15:00, mánudaga til fimmtudaga. Gos fylgir ekki með.",
-   "img": "https://vodafone.is/library/VIP/Fridays%20-%20Copy%20(2).jpg"
+   "about": "2 fyrir 1 af Buffalo kjúklingasamloku og Jack Daniels hamborgara frá kl. 11:30 - 15:00, mánudaga til fimmtudaga. Gos fylgir ekki með.",
+   "img": "https://vodafone.is/library/VIP/Fridays_april_424x212.jpg"
   },
   {
    "name": "Gamla kaupfélagið",
@@ -81,6 +76,13 @@
    "website_url": "https://www.facebook.com/gamlakaupfelagid/?fref=ts"
   },
   {
+   "name": "Greifinn",
+   "about": "30% afsláttur af matseðli, sunnudaga til fimmtudaga. Gildir ekki af drykkjum né öðrum tilboðum.",
+   "img": "https://vodafone.is/library/VIP/Greifinn_april_424x212_n%C3%BD.png",
+   "website": "",
+   "website_url": "http://www.greifinn.is/"
+  },
+  {
    "name": "Hard Rock Café",
    "about": "20% af matseðli alla daga frá kl. 11:30 - 15:00.",
    "img": "https://vodafone.is/library/VIP/HardRock-424x212.jpg",
@@ -88,25 +90,11 @@
    "website_url": "https://www.facebook.com/hardrockreykjavik/"
   },
   {
-   "name": "Kaffi Laugalækur",
-   "about": "30% afsláttur af Litlu Gulu Hænunni súrdeigspítsu frá kl. 18 til 20 alla daga vikunnar. Hægt að fá Bríó bjór með á 750 kr. Um helgar frá kl. 11 til 15 fylgir frír kokteill Aperol Spritz með bröns máltíð.",
-   "img": "https://vodafone.is/library/VIP/Kaffi-laugalaekur-424-212%20-%20Copy%20(1).png",
-   "website": "",
-   "website_url": "http://www.laekur.is/"
-  },
-  {
    "name": "Krúska",
-   "about": "2 fyrir 1 af matseðli frá kl. 15:00 til 21:00, mánudaga til föstudaga. Tilboðið gildir einnig á laugardögum frá kl. 17:00 til 21:00.",
+   "about": "2 fyrir 1 af matseðli frá kl. 17:00 til 19:00, mánudaga til miðvikudaga.",
    "img": "https://vodafone.is/library/VIP/kr%C3%BAska_424_212.jpg",
    "website": "",
    "website_url": "http://www.koparrestaurant.is/en/home-2/"
-  },
-  {
-   "name": "La Colina Pizzeria",
-   "about": "10% afsláttur af pizzum á matseðli.",
-   "img": "https://vodafone.is/library/VIP/LaColina-424-212%20-%20Copy%20(1).png",
-   "website": "",
-   "website_url": "https://www.facebook.com/lacolinapizzeria/"
   },
   {
    "name": "La Vita é Bella",
@@ -123,13 +111,6 @@
    "website_url": "https://www.lekock.is/"
   },
   {
-   "name": "Lebowski bar",
-   "about": "2 fyrir 1 af hamborgaramáltíðum alla virka daga frá kl. 11:00 til 15:00. Gildir ekki af take-away eða með öðrum tilboðum.",
-   "img": "https://vodafone.is/library/VIP/Lebowski-424x212.jpg",
-   "website": "",
-   "website_url": "http://www.lebowskibar.is/"
-  },
-  {
    "name": "Messinn",
    "about": "2 fyrir 1 af kvöldhlaðborði á Granda frá kl. 18:00-22:00. Frítt fyrir börn 7 ára og yngri.",
    "img": "https://vodafone.is/library/VIP/Messinn%20-%20Vodafone.png",
@@ -137,15 +118,8 @@
    "website_url": "https://www.facebook.com/messinngranda/?fref=ts"
   },
   {
-   "name": "Nat Kitchen",
-   "about": "2 fyrir 1 af heilhveiti kjúklingapasta með pestó, brokkolí og spínati eftir kl. 17:00, mánudaga til fimmtudaga.",
-   "img": "https://vodafone.is/library/VIP/Nat-Kitchne-424x212.jpg",
-   "website": "",
-   "website_url": "https://www.facebook.com/Natkitchen-1677020715905765/?fref=ts"
-  },
-  {
    "name": "Nauthóll",
-   "about": "2 fyrir 1 Truffluðum hamborgara, Kjúklingasalati, Kjúklingasamloku, Ratatoullie súrdeigssamloku (vegan) og/eða Fögrum fiski úr sjó. Gildir eftir kl. 18:00, alla daga vikunnar.",
+   "about": "2 fyrir 1 Truffluðum hamborgara, Kjúklingasalati, Ratatoullie súrdeigssamloku (vegan) og/eða Fögrum fiski úr sjó. Gildir eftir kl. 18:00, alla daga vikunnar.",
    "img": "https://vodafone.is/library/VIP/nautholl-nytt-424x212.jpg",
    "website": "",
    "website_url": "http://www.nautholl.is/"
@@ -159,7 +133,7 @@
   },
   {
    "name": "Red chili",
-   "about": "2 fyrir 1 af Fajitas Classic: Funheit panna með kjúklingabringum og grænmeti ásamt tilheyrandi meðlæti og pönnukökum. Gildir frá kl. 14:00 til 17:00, mánudaga til föstudaga og 11:00 til 17:00 laugardaga og sunnudaga. Gildir eingöngu þegar borðað er á staðnum.",
+   "about": "2 fyrir 1 af Fajitas Classic: Funheit panna með kjúklingabringum og grænmeti ásamt tilheyrandi meðlæti og pönnukökum. Gildir mánudaga til föstudaga frá kl. 14:00 - 17:00 og laugardaga og sunnudaga frá kl.11:00 - 17:00. Gildir eingöngu þegar borðað er á staðnum.",
    "img": "https://vodafone.is/library/VIP/red-chili424x212%20-%20Copy%20(1).png",
    "website": "",
    "website_url": "http://www.redchili.is/"
@@ -170,6 +144,13 @@
    "img": "https://vodafone.is/library/VIP/Salt-424-212.jpg",
    "website": "",
    "website_url": "https://saltkitchenandbar.is/"
+  },
+  {
+   "name": "Sbarro",
+   "about": "Pizzusneið að egin vali ásamt gosglasi á aðeins 950 kr., alla virka daga.",
+   "img": "https://vodafone.is/library/VIP/Sbarro.jpg",
+   "website": "",
+   "website_url": "http://sbarro.is/"
   },
   {
    "name": "Skúbb - Lífræn ísbúð",
@@ -194,17 +175,10 @@
   },
   {
    "name": "Sushi Social",
-   "about": "2 fyrir 1 af 4 rétta sushi&naut seðli frá kl. 17:00, mánudaga og þriðjudaga. Gildir ekki fyrir hópa 8 manns eða fleiri.",
+   "about": "2 fyrir 1 af 4 rétta sushi&naut seðli frá kl. 17:00, mánudaga og þriðjudaga. Gildir ekki mánudaginn 30. apríl. Gildir ekki fyrir hópa 8 manns eða fleiri.",
    "img": "https://vodafone.is/library/VIP/Sushi-social-424x212.jpg",
    "website": "",
    "website_url": "http://sushisocial.is/"
-  },
-  {
-   "name": "Systrasamlagið",
-   "about": "CACAÓ beint úr regnskógum Gvatemala með 200 mg af magnesíumi í hverjum bolla og meira en 1000 næringarefnum. Kynningartilboð: 950 kr.",
-   "img": "https://vodafone.is/library/VIP/Systrasamfelagid-424x212_jan2018.jpg",
-   "website": "",
-   "website_url": "https://systrasamlagid.is/"
   },
   {
    "name": "Sæta svínið",
@@ -215,7 +189,7 @@
   },
   {
    "name": "Tapas barinn",
-   "about": "2 fyrir 1 af óvissuferð frá kl 17:00 til 23:30, mánudaga og þriðjudaga. Gildir ekki fyrir hópa, 8 manns eða fleiri.",
+   "about": "2 fyrir 1 af óvissuferð frá kl 17:00 til 23:30, mánudaga og þriðjudaga. Gildir ekki mánudaginn 30. apríl. Gildir ekki fyrir hópa, 8 manns eða fleiri.",
    "img": "https://vodafone.is/library/VIP/Tapas-barinn-424x212.jpg",
    "website": "",
    "website_url": "http://tapas.is/is/"
@@ -233,13 +207,6 @@
    "img": "https://vodafone.is/library/VIP/XO-424-212.jpg",
    "website": "",
    "website_url": "http://www.xoisland.is/"
-  },
-  {
-   "name": "YoYo ferskur ís",
-   "about": "2 fyrir 1 af öllum ís og nammi frá kl. 11:30 til 16:00, alla virka daga. Greitt er fyrir dýrari ísinn.",
-   "img": "https://vodafone.is/library/VIP/yoyo_424x212.jpg",
-   "website": "",
-   "website_url": "https://www.facebook.com/ferskuris/"
   },
   {
    "name": "Þrastalundur",

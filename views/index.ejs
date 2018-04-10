@@ -23,137 +23,140 @@
     <div>
     </div>
 
-    <section class="Tilbod_1">
+    <!-- Getur séð hérna í h1 þar sem ég nota random breytuna, þetta er bara test -->
+    <h1><%= randomNova.name %></h1>
+    
+        <section class="Tilbod_1">
 
-      <% nova.novaPlaces.forEach(function (food){ %>
+          <% nova.novaPlaces.forEach(function (food){ %>
 
-        <div class="Tilbodin">
+            <div class="Tilbodin">
 
-          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+              <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
-          <div class="eventName">
-            <p class="stadurNafn">
-              <%= food.name %>
-            </p>
-          </div>
+              <div class="eventName">
+                <p class="stadurNafn">
+                  <%= food.name %>
+                </p>
+              </div>
 
-          <div class="about">
-            <p class="stadurUppl">
-              <%= food.about %>
-            </p>
-          </div>
+              <div class="about">
+                <p class="stadurUppl">
+                  <%= food.about %>
+                </p>
+              </div>
 
-          <div class="Location">
-            <p>
-              <%= food.address %>
-            </p>
-            <% food.days.forEach(function (day){ %>
-              <p>
-                <%= day.name %>
-              </p>
-              <% }) %>
-          </div>
-        </div>
-        <% }) %>
-    </section>
+              <div class="Location">
+                <p>
+                  <%= food.address %>
+                </p>
+                <% food.days.forEach(function (day){ %>
+                  <p>
+                    <%= day.name %>
+                  </p>
+                  <% }) %>
+              </div>
+            </div>
+            <% }) %>
+        </section>
 
-    <section class="Tilbod_2">
+        <section class="Tilbod_2">
 
-      <% vodafone.vodafonePlaces.forEach(function (food){ %>
+          <% vodafone.vodafonePlaces.forEach(function (food){ %>
 
-        <div class="Tilbodin">
+            <div class="Tilbodin">
 
-          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+              <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
-          <div class="eventName">
-            <p class="stadurNafn">
-              <%= food.name %>
-            </p>
-          </div>
+              <div class="eventName">
+                <p class="stadurNafn">
+                  <%= food.name %>
+                </p>
+              </div>
 
-          <div class="about">
-            <p class="stadurUppl">
-              <%= food.about %>
-            </p>
-          </div>
+              <div class="about">
+                <p class="stadurUppl">
+                  <%= food.about %>
+                </p>
+              </div>
 
-          <div class="Location">
-            <p>
-              <%= food.website_url %>
-            </p>
-            <!--<p><%= JSON.stringify(food.days) %></p>-->
-          </div>
-        </div>
-        <% }) %>
-    </section>
+              <div class="Location">
+                <p>
+                  <%= food.website_url %>
+                </p>
+                <!--<p><%= JSON.stringify(food.days) %></p>-->
+              </div>
+            </div>
+            <% }) %>
+        </section>
 
-    <section class="Tilbod_3">
+        <section class="Tilbod_3">
 
-      <% nova.novaPlaces.forEach(function (food){ %>
+          <% nova.novaPlaces.forEach(function (food){ %>
 
-        <div class="Tilbodin">
+            <div class="Tilbodin">
 
-          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+              <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
-          <div class="eventName">
-            <p class="stadurNafn">
-              <%= food.name %>
-            </p>
-          </div>
+              <div class="eventName">
+                <p class="stadurNafn">
+                  <%= food.name %>
+                </p>
+              </div>
 
-          <div class="about">
-            <p class="stadurUppl">
-              <%= food.about %>
-            </p>
-          </div>
+              <div class="about">
+                <p class="stadurUppl">
+                  <%= food.about %>
+                </p>
+              </div>
 
-          <div class="Location">
-            <p>
-              <%= food.address %>
-            </p>
-            <% food.days.forEach(function (day){ %>
-              <p>
-                <%= day.name %>
-              </p>
-              <% }) %>
-          </div>
-        </div>
-        <% }) %>
-    </section>
+              <div class="Location">
+                <p>
+                  <%= food.address %>
+                </p>
+                <% food.days.forEach(function (day){ %>
+                  <p>
+                    <%= day.name %>
+                  </p>
+                  <% }) %>
+              </div>
+            </div>
+            <% }) %>
+        </section>
 
-    <section class="Tilbod_4">
+        <section class="Tilbod_4">
 
-      <% twoForOne.twoForOnePlaces.forEach(function (food){ %>
+          <% twoForOne.twoForOnePlaces.forEach(function (food){ %>
 
-        <div class="Tilbodin">
+            <div class="Tilbodin">
 
-          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+              <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
-          <div class="eventName">
-            <p class="stadurNafn">
-              <%= food.name %>
-            </p>
-          </div>
+              <div class="eventName">
+                <p class="stadurNafn">
+                  <%= food.name %>
+                </p>
+              </div>
 
-          <div class="about">
-            <p class="stadurUppl">
-              <%= food.about %>
-            </p>
-          </div>
+              <div class="about">
+                <p class="stadurUppl">
+                  <%= food.about %>
+                </p>
+              </div>
 
-          <div class="Location">
-            <p>
-              <%= food.address %>
-            </p>
-            <% food.days.forEach(function (day){ %>
-              <p>
-                <%= day.name %>
-              </p>
-              <% }) %>
-          </div>
-        </div>
-        <% }) %>
-    </section>
+              <div class="Location">
+                <p>
+                  <%= food.address %>
+                </p>
+                <% food.days.forEach(function (day){ %>
+                  <p>
+                    <%= day.name %>
+                  </p>
+                  <% }) %>
+              </div>
+            </div>
+            <% }) %>
+        </section>
 
   </main>
   <footer>
