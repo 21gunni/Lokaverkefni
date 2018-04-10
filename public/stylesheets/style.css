@@ -1,0 +1,160 @@
+body {
+  padding-top: 3.2rem;
+  background-color: white;
+  margin:0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+.places {
+  color: pink
+}
+
+
+.header-section {
+  background-color:#1496DC;
+  padding-bottom: 5%;
+  padding-top:5%;
+}
+
+.navLogo {
+  padding: .5rem 1rem;
+  max-width:100px;
+
+}
+.Logo {
+  display: block;
+  margin:0px auto;
+  max-width:250px;
+  
+}
+
+
+
+/*Tilbods svæðið*/
+
+
+.flexingItems {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2.5%;
+}
+
+.Tilbodin {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 24%;
+  min-width: 290px;
+  height: 450px;
+
+  background-color: white;
+  margin:5px;
+  
+}
+
+.Brynjar {
+  width: 100%;
+  height:50%;
+}
+
+.stadurNafn {
+  width: 400px;
+  height: 5px;
+  margin-left: 2%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.stadurUppl {
+  margin-left: 2%;
+}
+
+.Dagsetning {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  font-size: 20px;
+  color: black;
+}
+
+.Location {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  font-size: 13px;
+  color: black;
+}
+
+.Tilbod_1{
+  background-color: white;
+  padding-top: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+
+.Tilbod_2{
+  background-color:#54CBD3;
+  padding-top: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+.Tilbod_3{
+  background-color:white;
+  padding-top: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.Tilbod_4{
+  background-color:#54CBD3;
+  padding-top: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+/*Footer section*/
+
+.Footer-section {
+  background-color: #fafafa;
+  padding: 2% 2%;
+  font-weight: bold;
+  font-size: 10;
+  color:#aebdc1;
+  text-align: center;
+}

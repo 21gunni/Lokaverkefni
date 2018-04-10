@@ -1,140 +1,167 @@
 <!DOCTYPE html>
 <html lang="is">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="stylesheet/main.css">
-    <title>Lokaverkefni - Matartilboð!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <title>Lokaverkefni - Matartilboð!</title>
 </head>
+
 <body>
-    <div class="navbar">
-        <img class ="navLogo" src="https://i.imgur.com/hqgVfnK.png" alt="">
-    </div>      
-    <header>
-        
-        <section class="header-section">            
-            <img class ="Logo" src="https://i.imgur.com/qz2eCBl.png" alt="">
-            <img class ="Logo" src="https://i.imgur.com/vzUn4CY.png" alt="">
-        </section>
-    </header>
-    <main>
-        <div>
+  <div class="navbar">
+    <img class="navLogo" src="https://i.imgur.com/hqgVfnK.png" alt="">
+  </div>
+  <header>
+    <section class="header-section">
+      <img class="Logo" src="https://i.imgur.com/qz2eCBl.png" alt="">
+      <img class="Logo" src="https://i.imgur.com/vzUn4CY.png" alt="">
+    </section>
+  </header>
+  <main>
+    <div>
+    </div>
+
+    <section class="Tilbod_1">
+
+      <% nova.novaPlaces.forEach(function (food){ %>
+
+        <div class="Tilbodin">
+
+          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+
+          <div class="eventName">
+            <p class="stadurNafn">
+              <%= food.name %>
+            </p>
+          </div>
+
+          <div class="about">
+            <p class="stadurUppl">
+              <%= food.about %>
+            </p>
+          </div>
+
+          <div class="Location">
+            <p>
+              <%= food.address %>
+            </p>
+            <% food.days.forEach(function (day){ %>
+              <p>
+                <%= day.name %>
+              </p>
+              <% }) %>
+          </div>
         </div>
+        <% }) %>
+    </section>
 
-        <section class="Tilbod_1">
+    <section class="Tilbod_2">
 
-                <% nova.novaPlaces.forEach(function (food){ %>
+      <% vodafone.vodafonePlaces.forEach(function (food){ %>
 
-                <div class="Tilbodin">
-                    
-                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+        <div class="Tilbodin">
 
-                    <div class="eventName">
-                        <p class ="stadurNafn"><%= food.name %></p>
-                    </div>
+          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
-                    <div class="about">
-                        <p class="stadurUppl"><%= food.about %></p>
-                    </div>
+          <div class="eventName">
+            <p class="stadurNafn">
+              <%= food.name %>
+            </p>
+          </div>
 
-                    <div class="Location">
-                        <p><%= food.address %></p>
-                        <% food.days.forEach(function (day){ %>
-                            <p><%= day.name %></p>
-                        <% }) %>
-                    </div>
-                </div>
-                <% }) %>
-        </section>
-        
+          <div class="about">
+            <p class="stadurUppl">
+              <%= food.about %>
+            </p>
+          </div>
 
-        <section class="Tilbod_2">
+          <div class="Location">
+            <p>
+              <%= food.website_url %>
+            </p>
+            <!--<p><%= JSON.stringify(food.days) %></p>-->
+          </div>
+        </div>
+        <% }) %>
+    </section>
 
-                <% vodafone.vodafonePlaces.forEach(function (food){ %>
+    <section class="Tilbod_3">
 
-                <div class="Tilbodin">
-                    
-                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+      <% nova.novaPlaces.forEach(function (food){ %>
 
-                    <div class="eventName">
-                        <p class ="stadurNafn"><%= food.name %></p>
-                    </div>
+        <div class="Tilbodin">
 
-                    <div class="about">
-                        <p class="stadurUppl"><%= food.about %></p>
-                    </div>
+          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
-                    <div class="Location">
-                        <p><%= food.website_url %></p>
-                        <!--<p><%= JSON.stringify(food.days) %></p>-->
-                    </div>
-                </div>
-                <% }) %>
-        </section>
-		
-        <section class="Tilbod_3">
+          <div class="eventName">
+            <p class="stadurNafn">
+              <%= food.name %>
+            </p>
+          </div>
 
-                <% nova.novaPlaces.forEach(function (food){ %>
+          <div class="about">
+            <p class="stadurUppl">
+              <%= food.about %>
+            </p>
+          </div>
 
-                <div class="Tilbodin">
-                    
-                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+          <div class="Location">
+            <p>
+              <%= food.address %>
+            </p>
+            <% food.days.forEach(function (day){ %>
+              <p>
+                <%= day.name %>
+              </p>
+              <% }) %>
+          </div>
+        </div>
+        <% }) %>
+    </section>
 
-                    <div class="eventName">
-                        <p class ="stadurNafn"><%= food.name %></p>
-                    </div>
+    <section class="Tilbod_4">
 
-                    <div class="about">
-                        <p class="stadurUppl"><%= food.about %></p>
-                    </div>
+      <% twoForOne.twoForOnePlaces.forEach(function (food){ %>
 
-                    <div class="Location">
-                        <p><%= food.address %></p>
-                        <% food.days.forEach(function (day){ %>
-                            <p><%= day.name %></p>
-                        <% }) %>
-                    </div>
-                </div>
-                <% }) %>
-        </section>
+        <div class="Tilbodin">
 
-        <section class="Tilbod_4">
+          <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
-                <% twoForOne.twoForOnePlaces.forEach(function (food){ %>
+          <div class="eventName">
+            <p class="stadurNafn">
+              <%= food.name %>
+            </p>
+          </div>
 
-                <div class="Tilbodin">
-                    
-                    <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+          <div class="about">
+            <p class="stadurUppl">
+              <%= food.about %>
+            </p>
+          </div>
 
-                    <div class="eventName">
-                        <p class ="stadurNafn"><%= food.name %></p>
-                    </div>
+          <div class="Location">
+            <p>
+              <%= food.address %>
+            </p>
+            <% food.days.forEach(function (day){ %>
+              <p>
+                <%= day.name %>
+              </p>
+              <% }) %>
+          </div>
+        </div>
+        <% }) %>
+    </section>
 
-                    <div class="about">
-                        <p class="stadurUppl"><%= food.about %></p>
-                    </div>
-
-                    <div class="Location">
-                        <p><%= food.address %></p>
-                        <% food.days.forEach(function (day){ %>
-                            <p><%= day.name %></p>
-                            <% }) %>
-                    </div>
-                </div>
-                <% }) %>
-        </section>
-        
-
-    </main>
-    <footer>
-        <section class="Footer-section">
-            <p>© 2018 Gunnar M. Harðarson</p>
-            <p>© 2018 Vilhjálmur Jónsson</p>
-        </section>
-    </footer>
-
-    <script type="text/javascript" src="main.js"></script> 
-    <script type="text/javascript" src="foodMock.js"></script> 
+  </main>
+  <footer>
+    <section class="Footer-section">
+      <p>© 2018 Gunnar M. Harðarson</p>
+      <p>© 2018 Vilhjálmur Jónsson</p>
+    </section>
+  </footer>
 </body>
+
 </html>
