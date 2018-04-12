@@ -1,16 +1,19 @@
 var express = require('express');
 var router = express.Router();
-var main = require('../public/javascripts/random');
+var random = require('../public/javascripts/random');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  const randomNova = main.randomNova();
-  const randomVodafone = main.randomVodafone();
-  const randomTwoForOne = main.randomTwoForOne();
+  const randomNova = random.randomNova();
+  const randomVodafone = random.randomVodafone();
+  const randomTwoForOne = random.randomTwoForOne();
+  const randomAll = random.randomAll();
+
   res.render('index', {
     randomNova,
     randomVodafone,
-    randomTwoForOne
+    randomTwoForOne,
+    randomAll
   });
 });
 

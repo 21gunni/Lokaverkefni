@@ -3,6 +3,7 @@ var novaJson = require('../../nova');
 var vodafoneJson = require('../../vodafone');
 var twoForOneJson = require('../../twoForOne');
 
+
 // A function that returns a random nova place
 function randomNova() {
     var randomPlace = novaJson.novaPlaces[Math.floor(Math.random() * novaJson.novaPlaces.length)];
@@ -21,9 +22,20 @@ function randomTwoForOne() {
     return randomPlace;
 }
 
+// A function that returns a random place from all places
+function randomAll() {
+    var random = [];
+    random.push(randomNova());
+    random.push(randomVodafone());
+    random.push(randomTwoForOne());
+    var allRandom = random[Math.floor(Math.random() * random.length)];
+    return allRandom;
+}
+
 
 module.exports = {
     randomNova,
     randomVodafone,
-    randomTwoForOne
+    randomTwoForOne,
+    randomAll
 };
