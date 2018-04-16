@@ -8,37 +8,56 @@ var twoForOneJson = require('../../twoForOne');
 
 // A function that returns a random nova place
 function randomNova() {
-    var randomPlace = novaJson.novaPlaces[Math.floor(Math.random() * novaJson.novaPlaces.length)];
-    return randomPlace;
+	var randomPlace = novaJson.novaPlaces[Math.floor(Math.random() * novaJson.novaPlaces.length)];
+	return randomPlace;
 }
 
 // A function that returns a random vodafone place
 function randomVodafone() {
-    var randomPlace = vodafoneJson.vodafonePlaces[Math.floor(Math.random() * vodafoneJson.vodafonePlaces.length)];
-    return randomPlace;
+	var randomPlace = vodafoneJson.vodafonePlaces[Math.floor(Math.random() * vodafoneJson.vodafonePlaces.length)];
+	return randomPlace;
 }
 
 // A function that returns a random twoForOne place
 function randomTwoForOne() {
-    var randomPlace = twoForOneJson.twoForOnePlaces[Math.floor(Math.random() * twoForOneJson.twoForOnePlaces.length)];
-    return randomPlace;
+	var randomPlace = twoForOneJson.twoForOnePlaces[Math.floor(Math.random() * twoForOneJson.twoForOnePlaces.length)];
+	return randomPlace;
 }
 
 // A function that returns a random place from all places
 function randomAll() {
-    var random = [];
-    random.push(randomNova());
-    random.push(randomVodafone());
-    random.push(randomTwoForOne());
-    var allRandom = random[Math.floor(Math.random() * random.length)];
-    return allRandom;
+	var random = [];
+	random.push(randomNova());
+	random.push(randomVodafone());
+	random.push(randomTwoForOne());
+	var allRandom = random[Math.floor(Math.random() * random.length)];
+	return allRandom;
 }
 
+function wD(day)  {
+	if (day === 'Mán') {
+
+	}
+}
+
+// A functin that returns the chosen weekday and/or specific place
+function weekDay(place, day) {
+	var sat = [];
+	if (place === 'nova' && day === 'Lau') {
+		
+	}
+}
+
+//var result = novaJson.novaPlaces.days.n.filter(word => word.length === 'Lau');
+
+//console.log(result);
+
+console.log(weekDay('nova', 'Lau'));
 
 
 module.exports = {
-    randomNova,
-    randomVodafone,
-    randomTwoForOne,
-    randomAll
+	randomNova,
+	randomVodafone,
+	randomTwoForOne,
+	randomAll
 };
