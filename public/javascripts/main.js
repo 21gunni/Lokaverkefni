@@ -34,6 +34,17 @@ function randomAll() {
 	return allRandom;
 }
 
+// Navbar functions
+
+function navbarShrink() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
 function wD(day)  {
 	if (day === 'Mán') {
 
@@ -59,5 +70,6 @@ module.exports = {
 	randomNova,
 	randomVodafone,
 	randomTwoForOne,
-	randomAll
+	randomAll,
+	navbarShrink
 };
