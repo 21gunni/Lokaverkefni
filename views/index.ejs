@@ -29,6 +29,7 @@
     <section class="header-section">
       <img class="Logo" src="https://i.imgur.com/qz2eCBl.png" alt="">
       <img class="Logo" src="https://i.imgur.com/vzUn4CY.png" alt="">
+      <p class="slogan">A place to find various food related discounts!</p>
     </section>
   </header>
   <main>
@@ -36,9 +37,12 @@
     <div>
       
     </div>
-
-    <section class="Tilbod_1">
-
+    
+    
+    <section class="Nova_tilbod">
+        <img class="NovaLogo" src="https://i.imgur.com/MuhUv5h.png" alt="">
+      <div class="Nova_1">
+      
       <% nova.novaPlaces.forEach(function (food){ %>
 
         <div class="Tilbodin">
@@ -69,13 +73,18 @@
           </div>
         </div>
         <% }) %>
+      </div>
     </section>
+    
 
-    <section class="Tilbod_2">
+    <section class="Vodafone_tilbod">
+        <img class="VodLogo" src="https://i.imgur.com/EBmnIyo.png" alt="">
+        <div class="Vodafone_2">
 
       <% vodafone.vodafonePlaces.forEach(function (food){ %>
 
         <div class="Tilbodin">
+
 
           <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
 
@@ -99,9 +108,12 @@
           </div>
         </div>
         <% }) %>
+      </div>
     </section>
 
-    <section class="Tilbod_3">
+    <section class="Siminn_tilbod">
+        <img class="SimLogo" src="https://i.imgur.com/WB4YASG.png" alt="">
+        <div class="Siminn_3">
 
       <% nova.novaPlaces.forEach(function (food){ %>
 
@@ -133,9 +145,12 @@
           </div>
         </div>
         <% }) %>
+      </div>
     </section>
 
-    <section class="Tilbod_4">
+    <section class="tveirFeinn_tilbod">
+        <img class="tveirEinnLogo" src="https://i.imgur.com/A76Uhu2.png" alt="">
+        <div class="tveirEinn_4">
 
       <% twoForOne.twoForOnePlaces.forEach(function (food){ %>
 

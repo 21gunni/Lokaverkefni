@@ -4,7 +4,9 @@ body {
   margin:0;
 }
 
-
+main {
+  margin:0;
+}
 
 h1 {
   color: black;
@@ -20,9 +22,10 @@ h1 {
 
 .header-section {
   background-color:#1496DC;
-  padding-bottom: 5%;
-  padding-top:5%;
+  padding-bottom: 3%;
+  padding-top:3%;
   margin-top: 3.2rem;
+  text-align: center;
 }
 
 .navLogo {
@@ -30,11 +33,28 @@ h1 {
   max-width:100px;
 
 }
+
+
+
 .Logo {
   display: block;
   margin:0px auto;
   max-width:250px;
+
   
+}
+.slogan{
+
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+h5 {
+  color:white;
+
 }
 
 /*Navbar*/
@@ -44,7 +64,9 @@ h1 {
   background-color: white;
   position: fixed; 
   top: 0; 
-  width: 100%
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+
 }
 
 .topnav a {
@@ -147,52 +169,105 @@ h1 {
   color: black;
 }
 
-.Tilbod_1{
+.Nova_tilbod {
   background-color: white;
-  padding-top: 5%;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-bottom: 5%;
+}
+
+.Nova_1{
+  background-color: white;
+  padding-top: 2.5%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 2.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow-x: auto;
 }
 
+.NovaLogo {
+  padding: .5rem 1rem;
+  max-width:150px;
+  display: block;
+  margin:0px auto;
+  padding-top:2.5%
+  
+}
 
-.Tilbod_2{
+.Vodafone_tilbod {
   background-color:#54CBD3;
-  padding-top: 5%;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-bottom: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  overflow-x: auto;
 }
-.Tilbod_3{
-  background-color:white;
-  padding-top: 5%;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-bottom: 5%;
+
+
+.Vodafone_2{
+  background-color:#54CBD3;
+  padding-top: 2.5%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 2.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow-x: auto;
 }
 
-.Tilbod_4{
-  background-color:#54CBD3;
-  padding-top: 5%;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-bottom: 5%;
+.VodLogo {
+  padding: .5rem 1rem;
+  max-width:250px;
+  display: block;
+  margin:0px auto;
+  padding-top:2.5%
+  
+}
+
+.Siminn_tilbod {
+  background-color: white;
+
+}
+.Siminn_3{
+  background-color: white;
+  padding-top: 2.5%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 2.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow-x: auto;
+}
+
+.SimLogo {
+  padding: .5rem 1rem;
+  max-width:230px;
+  display: block;
+  margin:0px auto;
+  padding-top:2.5%
+  
+}
+
+.tveirEinn_4{
+  background-color:#54CBD3;
+  padding-top: 2.5%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.tveirFeinn_tilbod {
+  background-color:#54CBD3;
+
+}
+
+.tveirEinnLogo {
+  padding: .5rem 1rem;
+  max-width:130px;
+  display: block;
+  margin:0px auto;
+  padding-top:2.5%
 }
 
 /*Footer section*/
