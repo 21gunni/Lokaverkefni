@@ -8,9 +8,12 @@ var twoForOneJson = require('../../twoForOne');
 
 // A function that returns a random nova place
 function randomNova() {
+	var randomPlace = [];
 	var randomPlace = novaJson.novaPlaces[Math.floor(Math.random() * novaJson.novaPlaces.length)];
+	document.getElementById("demo").innerHTML = "randomPlace";
 	return randomPlace;
 }
+
 
 // A function that returns a random vodafone place
 function randomVodafone() {
@@ -35,35 +38,29 @@ function randomAll() {
 }
 
 // Navbar functions
-
 function navbarShrink() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-
-function wD(day)  {
-	if (day === 'Mán') {
-
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
 	}
 }
 
-// A functin that returns the chosen weekday and/or specific place
-function weekDay(place, day) {
-	var sat = [];
-	if (place === 'nova' && day === 'Lau') {
-		
+
+// A function that returns places for chosen day of the week
+const sat = [];
+function weekDay(p, d) {
+	if (p === 'nova', d === 'Lau') {
+		novaJson.novaPlaces.forEach(place => {
+			place.days.forEach(day => {
+				if (day.name === d) {
+					sat.push(place);
+				}
+			});
+		});
 	}
 }
-
-//var result = novaJson.novaPlaces.days.n.filter(word => word.length === 'Lau');
-
-//console.log(result);
-
-console.log(weekDay('nova', 'Lau'));
 
 
 module.exports = {
@@ -71,5 +68,6 @@ module.exports = {
 	randomVodafone,
 	randomTwoForOne,
 	randomAll,
-	navbarShrink
+	navbarShrink,
+	sat
 };
