@@ -4,6 +4,14 @@ var random = require('../public/javascripts/main');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+
+  res.render('index', {
+  });
+});
+
+
+/* POST home page. */
+router.post('/', (req, res, next) => {
   const randomNova = random.randomNova();
   const randomVodafone = random.randomVodafone();
   const randomTwoForOne = random.randomTwoForOne();
@@ -16,5 +24,6 @@ router.get('/', function(req, res, next) {
     randomAll
   });
 });
+
 
 module.exports = router;

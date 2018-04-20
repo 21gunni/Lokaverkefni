@@ -8,12 +8,19 @@ var twoForOneJson = require('../../twoForOne');
 
 // A function that returns a random nova place
 function randomNova() {
-	var randomPlace = [];
 	var randomPlace = novaJson.novaPlaces[Math.floor(Math.random() * novaJson.novaPlaces.length)];
-	document.getElementById("demo").innerHTML = "randomPlace";
 	return randomPlace;
 }
 
+
+function navbarShrink() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
+	}
+}
 
 // A function that returns a random vodafone place
 function randomVodafone() {
@@ -68,6 +75,5 @@ module.exports = {
 	randomVodafone,
 	randomTwoForOne,
 	randomAll,
-	navbarShrink,
-	sat
+	navbarShrink
 };

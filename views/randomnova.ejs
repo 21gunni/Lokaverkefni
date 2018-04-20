@@ -20,7 +20,15 @@
 		</section>
 	</header>
 	<main>
-
+		<h4><%= randomNova.name %></h4>
+		<h4><%= randomNova.address %></h4>
+		<img class="Brynjar" src="<%= randomNova.img%>" alt="Picture of the restaurant">
+		<h4><%= randomNova.about %></h4>
+		<% randomNova.days.forEach(function (day){ %>
+			<h4>
+			  <%= day.name %>
+			</h4>
+			<% }) %>
 	</main>
 	<footer>
 		<section class="Footer-section">
