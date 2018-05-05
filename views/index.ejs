@@ -35,10 +35,17 @@
   <main>
     <!-- Test div random takka -->
     <div>
-      <form action="/random" method="post">
+      <form action="/randomNova" method="GET">
         <button>Random Nova</button>
+      </form>
+      <form action="/randomVodafone" method="GET">
         <button>Random Vodafone</button>
-        <button>Random 2f1</button>
+      </form>
+      <form action="/randomTwoForOne" method="GET">
+        <button>Random TwoForOne </button>
+      </form>
+      <form action="/randomAll" method="GET">
+        <button>Random All </button>
       </form>
     </div>
 
@@ -111,6 +118,12 @@
               <a href="<%= food.website_url %>">
                 <%= food.name %>
               </a>
+
+              <% food.days.forEach(function (day){ %>
+                <p>
+                  <%= day.name %>
+                </p>
+                <% }) %>
             </div>
           </div>
           <% }) %>

@@ -4,9 +4,11 @@ var random = require('../public/javascripts/main');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-	
-	res.render('random', {
-	});
+  const randomTwoForOne = random.randomTwoForOne();
+
+  res.render('randomTwoForOne', {
+    randomTwoForOne
+  });
 });
 
 

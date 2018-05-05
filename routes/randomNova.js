@@ -3,9 +3,11 @@ var router = express.Router();
 var random = require('../public/javascripts/main');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
+  const randomNova = random.randomNova();
 
-  res.render('index', {
+  res.render('randomNova', {
+    randomNova
   });
 });
 

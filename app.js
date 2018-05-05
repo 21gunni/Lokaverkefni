@@ -7,7 +7,10 @@ var bodyParser = require('body-parser');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var randomRouter = require('./routes/random');
+var randomNovaRouter = require('./routes/randomNova');
+var randomVodafoneRouter = require('./routes/randomVodafone');
+var randomTwoForOneRouter = require('./routes/randomTwoForOne');
+var randomAllRouter = require('./routes/randomAll');
 
 var app = express();
 
@@ -32,7 +35,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/random', randomRouter);
+app.use('/randomNova', randomNovaRouter);
+app.use('/randomVodafone', randomVodafoneRouter);
+app.use('/randomTwoForOne', randomTwoForOneRouter);
+app.use('/randomAll', randomAllRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
