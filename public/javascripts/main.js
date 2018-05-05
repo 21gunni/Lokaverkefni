@@ -46,8 +46,9 @@ function navbarShrink() {
 }
 
 
-// A function that returns places for chosen day of the week for Nova
-function weekDayNova(day) {
+// A function that returns places for chosen day of the week
+function weekDay(place, day) {
+  // switch statement for place
   var mon = [];
   if (day === 'Mán') {
     novaJson.novaPlaces.forEach(p => {
@@ -112,91 +113,6 @@ function weekDayNova(day) {
   } else if (day === 'Sun') {
     var sun = [];
     novaJson.novaPlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          sun.push(p);
-        }
-      });
-    });
-    return sun;
-  }
-}
-
-// A function that returns places for chosen day of the week for 2f1
-function weekDayTwoForOne(day) {
-  var mon = [];
-  if (day === 'Mán') {
-    twoForOneJson.twoForOnePlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          mon.push(p);
-        }
-      });
-    });
-    return mon;
-  } else if (day === 'Þri') {
-    var tue = [];
-    twoForOneJson.twoForOnePlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          tue.push(p);
-        }
-      });
-    });
-    return tue;
-  } else if (day === 'Mið') {
-    var wed = [];
-    twoForOneJson.twoForOnePlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          wed.push(p);
-        }
-      });
-    });
-    return wed;
-  } else if (day === 'Fim') {
-    var thu = [];
-    twoForOneJson.twoForOnePlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          thu.push(p);
-        }
-      });
-    });
-    return thu;
-  } else if (day === 'Fös') {
-    var fri = [];
-    twoForOneJson.twoForOnePlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          fri.push(p);
-        }
-      });
-    });
-    return fri;
-  } else if (day === 'Lau') {
-    var sat = [];
-    twoForOneJson.twoForOnePlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          sat.push(p);
-        }
-      });
-    });
-    return sat;
-  } else if (day === 'Lau') {
-    var sat = [];
-    twoForOneJson.twoForOnePlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          sat.push(p);
-        }
-      });
-    });
-    return sat;
-  } else if (day === 'Sun') {
-    var sun = [];
-    twoForOneJson.twoForOnePlaces.forEach(p => {
       p.days.forEach(d => {
         if (d.name === day) {
           sun.push(p);
@@ -215,6 +131,7 @@ module.exports = {
   randomTwoForOne,
   randomAll,
   navbarShrink,
-  weekDayNova,
-  weekDayTwoForOne
+  weekDay
 };
+
+
