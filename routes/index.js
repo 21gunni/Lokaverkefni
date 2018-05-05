@@ -11,17 +11,11 @@ router.get('/', function(req, res, next) {
 
 
 /* POST home page. */
-router.post('/', (req, res, next) => {
+router.post('/random', (req, res, next) => {
   const randomNova = random.randomNova();
-  const randomVodafone = random.randomVodafone();
-  const randomTwoForOne = random.randomTwoForOne();
-  const randomAll = random.randomAll();
 
-  res.render('index', {
-    randomNova,
-    randomVodafone,
-    randomTwoForOne,
-    randomAll
+  res.render('random', {
+    randomNova
   });
 });
 

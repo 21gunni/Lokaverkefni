@@ -4,9 +4,8 @@ var random = require('../public/javascripts/main');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-	const randomNova = random.randomNova();
-	res.render('randomnova', {
-		randomNova
+	
+	res.render('random', {
 	});
 });
 
