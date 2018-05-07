@@ -18,8 +18,6 @@ h1 {
   color: pink
 }
 
-
-
 .header-section {
   background-color:#1496DC;
   padding-bottom: 3%;
@@ -34,14 +32,10 @@ h1 {
 
 }
 
-
-
 .Logo {
   display: block;
   margin:0px auto;
-  max-width:250px;
-
-  
+  max-width:250px;  
 }
 .slogan{
 
@@ -62,29 +56,68 @@ h5 {
 .topnav {
   overflow: hidden;
   background-color: white;
-  position: fixed; 
-  top: 0; 
-  width: 100%;
   font-family: 'Nunito', sans-serif;
-
+  top: 0%;
+  width: 100%;
+  position: fixed;
 }
 
 .topnav a {
   float: right;
   display: block;
+  font-size: 17px;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-.topnav a:hover {
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #ddd;
   color: black;
 }
 
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .topnav .icon {
   display: none;
@@ -297,3 +330,5 @@ h5 {
   color:#aebdc1;
   text-align: center;
 }
+
+
