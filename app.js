@@ -11,6 +11,7 @@ var randomNovaRouter = require('./routes/randomNova');
 var randomVodafoneRouter = require('./routes/randomVodafone');
 var randomTwoForOneRouter = require('./routes/randomTwoForOne');
 var randomAllRouter = require('./routes/randomAll');
+var weekDayRouter = require('./routes/weekDay');
 
 var app = express();
 
@@ -39,6 +40,7 @@ app.use('/randomNova', randomNovaRouter);
 app.use('/randomVodafone', randomVodafoneRouter);
 app.use('/randomTwoForOne', randomTwoForOneRouter);
 app.use('/randomAll', randomAllRouter);
+app.use('/weekDay', weekDayRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
