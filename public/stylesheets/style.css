@@ -112,6 +112,23 @@ h5 {
   }
 }
 
+/*Random takkar svæðið*/
+
+.random_tilboð_section{
+  text-align: center;
+}
+.randomIsTheShit {
+  display:flex;
+  padding-top: 3%;
+
+}
+
+.random_texti {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+}
 
 /*Tilbods svæðið*/
 
