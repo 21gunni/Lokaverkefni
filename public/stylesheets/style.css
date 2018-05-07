@@ -116,11 +116,56 @@ h5 {
 
 .random_tilboð_section{
   text-align: center;
+  background-color: white;
+}
+
+.mynd1 {
+  width: 40%;
+  height: 50%;
+}
+
+.mynd2 {
+  width: 80%;
+  height: 50%;
+}
+
+.mynd3 {
+  width: 30%;
+  height: 50%;
+}
+
+.mynd4 {
+  width: 40%;
+  height: 50%;
 }
 .randomIsTheShit {
   display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
   padding-top: 3%;
 
+}
+
+.random_1 {
+
+background-color:white;
+padding-top: 2.5%;
+padding-right: 1%;
+padding-left: 1%;
+padding-bottom: 2.5%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+overflow-x: auto;
+}
+
+.takkaStuff {
+  //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 24%;
+  min-width: 290px;
+  height: 140px;
+  background-color: white;
+  margin:5px;
 }
 
 .random_texti {
@@ -141,12 +186,13 @@ h5 {
   padding-bottom: 2.5%;
 }
 
+
+
 .Tilbodin {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 24%;
   min-width: 290px;
   height: 450px;
-
   background-color: white;
   margin:5px;
   
@@ -187,11 +233,11 @@ h5 {
 }
 
 .Nova_tilbod {
-  background-color: white;
+  background-color: #54CBD3;
 }
 
 .Nova_1{
-  background-color: white;
+  background-color: #54CBD3;
   padding-top: 2.5%;
   padding-right: 1%;
   padding-left: 1%;
@@ -212,12 +258,12 @@ h5 {
 }
 
 .Vodafone_tilbod {
-  background-color:#54CBD3;
+  background-color:white;
 }
 
 
 .Vodafone_2{
-  background-color:#54CBD3;
+  background-color:white;
   padding-top: 2.5%;
   padding-right: 1%;
   padding-left: 1%;
@@ -238,11 +284,11 @@ h5 {
 }
 
 .Siminn_tilbod {
-  background-color: white;
+  background-color: #54CBD3;
 
 }
 .Siminn_3{
-  background-color: white;
+  background-color: #54CBD3;
   padding-top: 2.5%;
   padding-right: 1%;
   padding-left: 1%;
