@@ -8,16 +8,16 @@
    "address": "Suðurlandsbraut 10",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     }
    ]
   },
@@ -29,13 +29,13 @@
    "address": "Hverfisgata 30",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     }
    ]
   },
@@ -47,19 +47,19 @@
    "address": "Austurstræti 20",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -71,19 +71,19 @@
    "address": "Bankastræti 8, Höfðatorg og Þjóðminjasafnið",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -94,13 +94,13 @@
    "about": "Ísbúðin Herdís býður 2 fyrir 1 af ís í borði ásamt meðlæti mánudaga til miðvikudaga frá 14:00 - 20:00. Gildir ekki af ís úr vél.",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     }
    ]
   },
@@ -112,13 +112,13 @@
    "address": "Höfðatorg 2, Kringlan og KEA Hótel Akureyri",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     }
    ]
   },
@@ -129,16 +129,16 @@
    "about": "Satt Restaurant býður 2 fyrir 1 af hádegishlaðborði mánudaga til fimmtudaga frá 11:30 - 14:00. Pantið borð í s. 444 4050.",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     }
    ]
   },
@@ -149,25 +149,25 @@
    "about": "Egill Jacobsen kitchen & bar býður 2 fyrir 1 af öllum aðalréttum virka daga frá 11:00 - 17:00._",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -179,25 +179,25 @@
    "address": "Geirsgata 7",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -209,19 +209,19 @@
    "address": "Lágmúli, Laugavegur og Laugar",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -232,19 +232,19 @@
    "about": "El Santo býður 2 fyrir 1 af aðalréttum mánudaga til föstudaga frá 11:30 - 14:00 og einnig miðvikudaga frá 17:00 - 22:00.",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -256,25 +256,25 @@
    "address": "Suðurlandsbraut 4a, Hjallahrauni 13 og Laugavegi 56",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -285,13 +285,13 @@
    "about": "Sakebarinn býður 2 fyrir 1 af öllum rúllum á matseðli og rúllu mánaðarins. Mánudaga til miðvikudaga frá 17:00 - 22:00. Gildir á staðnum og ekki af öðrum tilboðum.",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     }
    ]
   },
@@ -302,25 +302,25 @@
    "about": "Ríó Reykjavík býður 2 fyrir 1 af hamborgara og fisk dagsins alla daga frá 11:30 - 14:00.",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -332,19 +332,19 @@
    "address": "Snorrabraut 56",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -355,13 +355,13 @@
    "about": "Veitingahúsið Ítalía býður upp á 2 fyrir 1 af pizzum með einni áleggstegund og spaghetti bolognese eða carbonara, frá kl 11:30 - 13:30 mánudaga til miðvikudaga.",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     }
    ]
   },
@@ -373,25 +373,25 @@
    "address": "Pósthússtræti 9",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -403,16 +403,16 @@
    "address": "Laugarnesvegur 74a",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -424,25 +424,25 @@
    "address": "Tryggvagötu 26",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -454,13 +454,13 @@
    "address": "www.sushibarinn.is",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     }
    ]
   },
@@ -472,10 +472,10 @@
    "address": "Ártúnshöfði",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     }
    ]
   },
@@ -487,19 +487,19 @@
    "address": "Dalvegur 4",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -511,10 +511,10 @@
    "address": "Bragagata 38A",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     }
    ]
   },
@@ -526,13 +526,13 @@
    "address": "Grundarstígur 10",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     }
    ]
   },
@@ -544,13 +544,13 @@
    "address": "Fellsmúla 22",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -561,19 +561,19 @@
    "about": "Kaffi Vínyl býður 2 fyrir 1 af súpu með brauði og hummus alla virka daga frá 11:30 - 14:00.",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -585,10 +585,10 @@
    "address": "Kringlan",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     }
    ]
   },
@@ -599,13 +599,13 @@
    "about": "Gandhi restaurant býður 2 fyrir 1 af butter chicken, channa masalas eða fisk í karrý þriðjudaga til fimmtudaga frá 17:30 - 22:00.",
    "days": [
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     }
    ]
   },
@@ -617,19 +617,19 @@
    "address": "Laugavegur 85",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -641,16 +641,16 @@
    "address": "Laugavegur 20a",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     }
    ]
   },
@@ -662,25 +662,25 @@
    "address": "Geirsgata 3",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -692,10 +692,10 @@
    "address": "Vesturgata 3b",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     }
    ]
   },
@@ -707,16 +707,16 @@
    "address": "Austurstræti 18",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     }
    ]
   },
@@ -728,10 +728,10 @@
    "address": "Veltusundi 1",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     }
    ]
   },
@@ -743,19 +743,19 @@
    "address": "Hafnarstræti 1-3",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -767,10 +767,10 @@
    "address": "Þingholtsstræti 5",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     }
    ]
   },
@@ -782,25 +782,25 @@
    "address": "Laugavegur 176",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     },
     {
-     "name": "Sun"
+     "name": "sun"
     }
    ]
   },
@@ -812,19 +812,19 @@
    "address": "Hafnarstræti 5",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -836,19 +836,19 @@
    "address": "Þrastarlundur",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     }
    ]
   },
@@ -859,22 +859,22 @@
    "about": "Sjávarbarinn býður 2 fyrir 1 af sjávarréttapönnunni mánudaga til laugardaga frá 11:00 - 21:00",
    "days": [
     {
-     "name": "Mán"
+     "name": "mán"
     },
     {
-     "name": "Þri"
+     "name": "þri"
     },
     {
-     "name": "Mið"
+     "name": "mið"
     },
     {
-     "name": "Fim"
+     "name": "fim"
     },
     {
-     "name": "Fös"
+     "name": "fös"
     },
     {
-     "name": "Lau"
+     "name": "lau"
     }
    ]
   }

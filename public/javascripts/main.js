@@ -48,78 +48,229 @@ function navbarShrink() {
 
 // A function that returns places for chosen day of the week
 function weekDay(place, day) {
-  // switch statement for place
-  var mon = [];
-  if (day === 'Mán') {
-    novaJson.novaPlaces.forEach(p => {
-
-      p.days.forEach(d => {
-        if (d.name === day) {
-          mon.push(p);
-        }
-      });
-    });
-    return mon;
-  } else if (day === 'Þri') {
-    var tue = [];
-    novaJson.novaPlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          tue.push(p);
-        }
-      });
-    });
-    return tue;
-  } else if (day === 'Mið') {
-    var wed = [];
-    novaJson.novaPlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          wed.push(p);
-        }
-      });
-    });
-    return wed;
-  } else if (day === 'Fim') {
-    var thu = [];
-    novaJson.novaPlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          thu.push(p);
-        }
-      });
-    });
-    return thu;
-  } else if (day === 'Fös') {
-    var fri = [];
-    novaJson.novaPlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          fri.push(p);
-        }
-      });
-    });
-    return fri;
-  } else if (day === 'Lau') {
-    var sat = [];
-    novaJson.novaPlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          sat.push(p);
-        }
-      });
-    });
-    return sat;
-  } else if (day === 'Sun') {
-    var sun = [];
-    novaJson.novaPlaces.forEach(p => {
-      p.days.forEach(d => {
-        if (d.name === day) {
-          sun.push(p);
-        }
-      });
-    });
-    return sun;
+  switch (place) {
+    case 'nova':
+      var mon = [];
+      if (day === 'mán') {
+        novaJson.novaPlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              mon.push(p);
+            }
+          });
+        });
+        return mon;
+      } else if (day === 'þri') {
+        var tue = [];
+        novaJson.novaPlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              tue.push(p);
+            }
+          });
+        });
+        return tue;
+      } else if (day === 'mið') {
+        var wed = [];
+        novaJson.novaPlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              wed.push(p);
+            }
+          });
+        });
+        return wed;
+      } else if (day === 'fim') {
+        var thu = [];
+        novaJson.novaPlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              thu.push(p);
+            }
+          });
+        });
+        return thu;
+      } else if (day === 'fös') {
+        var fri = [];
+        novaJson.novaPlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              fri.push(p);
+            }
+          });
+        });
+        return fri;
+      } else if (day === 'lau') {
+        var sat = [];
+        novaJson.novaPlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              sat.push(p);
+            }
+          });
+        });
+        return sat;
+      } else if (day === 'sun') {
+        var sun = [];
+        novaJson.novaPlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              sun.push(p);
+            }
+          });
+        });
+        return sun;
+      }
+      break;
+    case 'vodafone':
+      var mon = [];
+      if (day === 'mán') {
+        vodafoneJson.vodafonePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              mon.push(p);
+            }
+          });
+        });
+        return mon;
+      } else if (day === 'þri') {
+        var tue = [];
+        vodafoneJson.vodafonePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              tue.push(p);
+            }
+          });
+        });
+        return tue;
+      } else if (day === 'mið') {
+        var wed = [];
+        vodafoneJson.vodafonePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              wed.push(p);
+            }
+          });
+        });
+        return wed;
+      } else if (day === 'fim') {
+        var thu = [];
+        vodafoneJson.vodafonePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              thu.push(p);
+            }
+          });
+        });
+        return thu;
+      } else if (day === 'fös') {
+        var fri = [];
+        vodafoneJson.vodafonePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              fri.push(p);
+            }
+          });
+        });
+        return fri;
+      } else if (day === 'lau') {
+        var sat = [];
+        vodafoneJson.vodafonePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              sat.push(p);
+            }
+          });
+        });
+        return sat;
+      } else if (day === 'sun') {
+        var sun = [];
+        vodafoneJson.vodafonePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              sun.push(p);
+            }
+          });
+        });
+        return sun;
+      }
+      break;
+    case 'twoForOne':
+      var mon = [];
+      if (day === 'mán') {
+        twoForOneJson.twoForOnePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              mon.push(p);
+            }
+          });
+        });
+        return mon;
+      } else if (day === 'þri') {
+        var tue = [];
+        twoForOneJson.twoForOnePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              tue.push(p);
+            }
+          });
+        });
+        return tue;
+      } else if (day === 'mið') {
+        var wed = [];
+        twoForOneJson.twoForOnePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              wed.push(p);
+            }
+          });
+        });
+        return wed;
+      } else if (day === 'fim') {
+        var thu = [];
+        twoForOneJson.twoForOnePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              thu.push(p);
+            }
+          });
+        });
+        return thu;
+      } else if (day === 'fös') {
+        var fri = [];
+        twoForOneJson.twoForOnePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              fri.push(p);
+            }
+          });
+        });
+        return fri;
+      } else if (day === 'lau') {
+        var sat = [];
+        twoForOneJson.twoForOnePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              sat.push(p);
+            }
+          });
+        });
+        return sat;
+      } else if (day === 'sun') {
+        var sun = [];
+        twoForOneJson.twoForOnePlaces.forEach(p => {
+          p.days.forEach(d => {
+            if (d.name === day) {
+              sun.push(p);
+            }
+          });
+        });
+        return sun;
+      }
+      break;
+    default:
+      // some code
+      break;
   }
 }
 
