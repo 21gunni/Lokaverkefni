@@ -15,13 +15,21 @@
   <div class="topnav" id="myTopnav">
     <img class="navLogo" src="https://i.imgur.com/hqgVfnK.png" alt="">
 
+    <a href="#">News</a>
+    <a href="#">About</a>
+    <a href="#">Content</a>
+    <div class="dropdown">
+      <button class="dropbtn">Offers
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#Nova_Tilbod_id">Nova</a>
+        <a href="#Vodafone_Tilbod_id">Vodafone</a>
+        <a href="#Siminn_Tilbod_id">2 Fyrir 1</a>
+      </div>
+    </div>
 
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="#home" class="active">Offers</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navbarShrink()">&#9776;</a>
-
   </div>
 
 
@@ -36,114 +44,92 @@
     <!-- Test div random takka -->
     <section class="random_tilboð_section">
       <p class="random_texti">Can't decide? Let us pick an offer for you with a simple click!</p>
+
     <div class="randomIsTheShit">
 
-      <div class="takkaStuff">
-      <form action="/randomNova" method="GET">
-        <input class="mynd1" type="image" src="https://i.imgur.com/MuhUv5h.png" />
-      </form>
       </div>
+      <div class="random_container">
+          <div class="random_box">
+              <form action="/randomNova" method="GET">
+                <input class="mynd1" type="image" src="https://i.imgur.com/MuhUv5h.png" />
+              </form>
+          </div>
+          <div class="random_box">
+              <form action="/randomVodafone" method="GET">
+                <input class="mynd2" type="image" src="https://i.imgur.com/EBmnIyo.png" />
+              </form>
+          </div>
+          <div class="random_box">
+              <form action="/randomTwoForOne" method="GET">
+                <input class="mynd3" type="image" src="https://i.imgur.com/A76Uhu2.png" />
+              </form>
+          </div>
+          <div class="random_box">
+              <form action="/randomAll" method="GET">
+                <input class="mynd4" type="image" src="https://i.imgur.com/MuhUv5h.png" />
+              </form>
+          </div>
+        </div>
 
-      <div class="takkaStuff">
-      <form action="/randomVodafone" method="GET">
-        <input class="mynd2" type="image" src="https://i.imgur.com/EBmnIyo.png" />
-      </form>
-      </div>
+            <!-- random stuffið kemur inn hér -->
+        <div class="random_container_efni">
+            <div class="random_box_efni_1">
+                <img class="Brynjar_efni" src="<%= randomNova.img%>" alt="Picture of the restaurant">
+            </div>
+            <div class="random_box_efni_2">
+                <p class="random_stadurNafn">
+                    <%= randomNova.name %>
+                </p>
+                <p class="random_about">
+                    <%= randomNova.about %>
+                  </p>
+            </div>
+         
+        </div>
 
-      <div class="takkaStuff">
-      <form action="/randomTwoForOne" method="GET">
-        <input class="mynd3" type="image" src="https://i.imgur.com/A76Uhu2.png" />
-      </form>
-      </div>
-      
-      <div class="takkaStuff">  
-      <form action="/randomAll" method="GET">
-        <input class="mynd4" type="image" src="https://i.imgur.com/MuhUv5h.png" />
-      </form>
-      </div>
+    </section>
 
-      <div class="random_1">
+      <section class="Nova_tilbod" id="Nova_Tilbod_id">
+        <img class="NovaLogo" src="https://i.imgur.com/MuhUv5h.png" alt="">
+        <div class="Nova_1">
+
+          <% nova.novaPlaces.forEach(function (food){ %>
 
             <div class="Tilbodin">
-  
-              <img class="Brynjar" src="<%= randomNova.img%>" alt="Picture of the restaurant">
-  
+
+              <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+
               <div class="eventName">
                 <p class="stadurNafn">
-                  <%= randomNova.name %>
+                  <%= food.name %>
                 </p>
               </div>
-  
+
               <div class="about">
                 <p class="stadurUppl">
-                  <%= randomNova.about %>
+                  <%= food.about %>
                 </p>
               </div>
-  
+
               <div class="Location">
                 <p>
-                  <a href='http://maps.google.com/?q=<%= randomNova.address %>'>
-                  
+                  <a href='http://maps.google.com/?q=<%= food.address %>'>
+                    <%= food.address %>
                   </a>
                 </p>
-  
-                <% randomNova.days.forEach(function (day){ %>
+
+                <% food.days.forEach(function (day){ %>
                   <p>
                     <%= day.name %>
                   </p>
                   <% }) %>
               </div>
             </div>
-            
+            <% }) %>
         </div>
+      </section>
 
-      </div>
-    </div>
-    </section>
-
-
-    <section class="Nova_tilbod">
-      <img class="NovaLogo" src="https://i.imgur.com/MuhUv5h.png" alt="">
-      <div class="Nova_1">
-
-        <% nova.novaPlaces.forEach(function (food){ %>
-
-          <div class="Tilbodin">
-
-            <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
-
-            <div class="eventName">
-              <p class="stadurNafn">
-                <%= food.name %>
-              </p>
-            </div>
-
-            <div class="about">
-              <p class="stadurUppl">
-                <%= food.about %>
-              </p>
-            </div>
-
-            <div class="Location">
-              <p>
-                <a href='http://maps.google.com/?q=<%= food.address %>'>
-                  <%= food.address %>
-                </a>
-              </p>
-
-              <% food.days.forEach(function (day){ %>
-                <p>
-                  <%= day.name %>
-                </p>
-                <% }) %>
-            </div>
-          </div>
-          <% }) %>
-      </div>
-    </section>
-
-
-    <section class="Vodafone_tilbod">
+    <section class="Vodafone_tilbod" id="Vodafone_Tilbod_id">
       <img class="VodLogo" src="https://i.imgur.com/EBmnIyo.png" alt="">
       <div class="Vodafone_2">
 
@@ -183,7 +169,7 @@
     </section>
 
 
-    <section class="Siminn_tilbod">
+    <section class="Siminn_tilbod" id="Siminn_Tilbod_id">
       <img class="tveirEinnLogo" src="https://i.imgur.com/A76Uhu2.png" alt="">
       <div class="Siminn_3">
 
