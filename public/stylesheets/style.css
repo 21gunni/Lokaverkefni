@@ -316,8 +316,21 @@ overflow-x: auto;
   font-family: 'Nunito', sans-serif;
 }
 
+.haus {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+  
+}
+
 /*Tilbods svæðið*/
 
+.eventName {
+
+}
+
+.about {
+
+}
 
 .flexingItems {
   display: flex;
@@ -327,7 +340,12 @@ overflow-x: auto;
   padding-bottom: 2.5%;
 }
 
+.Location_g_mynd {
 
+}
+.google_1 {
+
+}
 
 .Tilbodin {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
