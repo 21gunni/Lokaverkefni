@@ -173,7 +173,7 @@ h5 {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
+  flex-wrap:wrap;
   justify-content: space-around;
 }
 .random_box{
@@ -201,7 +201,7 @@ h5 {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    
+    flex-wrap:wrap;
     justify-content: space-around;
   }
   .random_box_efni_1{
