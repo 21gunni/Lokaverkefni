@@ -114,19 +114,23 @@
                 </p>
               </div>
 
-              <div class="Location">
-                <p>
-                  <a href='http://maps.google.com/?q=<%= food.address %>'>
-                    <%= food.address %>
-                  </a>
-                </p>
-
-                <% food.days.forEach(function (day){ %>
+              <div class="Location_g_mynd">
                   <p>
-                    <%= day.name %>
-                  </p>
-                  <% }) %>
-              </div>
+                    <a href='http://maps.google.com/?q=<%= food.address %>'>
+                      <img class="google_1" src="https://i.imgur.com/0JlalOl.png" />
+                     
+                    </a>
+                  
+                <div class ="asdfe">
+                  <% food.days.forEach(function (day){ %>
+                    <p>
+                      <%= day.name %>
+                    </p>
+                    <% }) %>
+                  </div>
+                </div>
+                
+  
             </div>
             <% }) %>
         </div>
@@ -155,17 +159,23 @@
               </p>
             </div>
 
-            <div class="Location">
-              <a href="<%= food.website_url %>">
-                <%= food.name %>
-              </a>
-
-              <% food.days.forEach(function (day){ %>
+            <div class="Location_g_mynd">
                 <p>
-                  <%= day.name %>
-                </p>
-                <% }) %>
-            </div>
+                  <a href='http://maps.google.com/?q=<%= food.address %>'>
+                    <img class="google_1" src="https://i.imgur.com/0JlalOl.png" />
+                   
+                  </a>
+                
+              <div class ="asdfe">
+                <% food.days.forEach(function (day){ %>
+                  <p>
+                    <%= day.name %>
+                  </p>
+                  <% }) %>
+                </div>
+              </div>
+              
+
           </div>
           <% }) %>
       </div>
@@ -194,18 +204,23 @@
               </p>
             </div>
 
-            <div class="Location">
-              <p>
-                <a href='http://maps.google.com/?q=<%= food.address %>'>
-                  <%= food.address %>
-                </a>
-              </p>
-              <% food.days.forEach(function (day){ %>
+            <div class="Location_g_mynd">
                 <p>
-                  <%= day.name %>
-                </p>
-                <% }) %>
-            </div>
+                  <a href='http://maps.google.com/?q=<%= food.address %>'>
+                    <img class="google_1" src="https://i.imgur.com/0JlalOl.png" />
+                   
+                  </a>
+                
+              <div class ="asdfe">
+                <% food.days.forEach(function (day){ %>
+                  <p>
+                    <%= day.name %>
+                  </p>
+                  <% }) %>
+                </div>
+              </div>
+              
+
           </div>
           <% }) %>
     </section>

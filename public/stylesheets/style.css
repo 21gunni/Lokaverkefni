@@ -329,6 +329,7 @@ overflow-x: auto;
 }
 
 .about {
+  height:6em;
 
 }
 
@@ -344,6 +345,8 @@ overflow-x: auto;
 
 }
 .google_1 {
+  margin:1%;
+  width:20%;
 
 }
 
@@ -390,6 +393,16 @@ overflow-x: auto;
   margin-left: 3%;
   font-size: 13px;
   color: black;
+}
+
+.asdfe {
+  display:flex;
+  margin-top: -23%;
+  margin-left: 19%;
+  font-family: 'Raleway',sans-serif;
+  font-weight:bold;
+  justify-content: space-around;
+  background-color:#8080801f;
 }
 
 .Nova_tilbod {
