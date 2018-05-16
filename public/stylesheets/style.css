@@ -509,6 +509,12 @@ overflow-x: auto;
   padding-top:2.5%
 }
 
+.about_texti {
+  font-size: 1.2rem;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+}
+
 /*Footer section*/
 
 .Footer-section {
@@ -520,4 +526,23 @@ overflow-x: auto;
   text-align: center;
 }
 
+/*Scrollbarinn mikli*/
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
 
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}

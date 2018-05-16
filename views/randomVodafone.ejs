@@ -10,7 +10,7 @@
   <title>4F2</title>
 </head>
 
-<body>
+<body id="style-1">
 
   <div class="topnav" id="myTopnav">
       <form action="/" method="GET">
@@ -40,8 +40,12 @@
 
   <header>
     <section class="header-section">
-      <img class="Logo" src="https://i.imgur.com/qz2eCBl.png" alt="">
-      <img class="Logo" src="https://i.imgur.com/vzUn4CY.png" alt="">
+        <form action="/" method="GET">
+          <input class="Logo" type="image" src="https://i.imgur.com/qz2eCBl.png" />
+        </form>
+      <form action="/" method="GET">
+        <input class="Logo" type="image" src="https://i.imgur.com/vzUn4CY.png" />
+      </form>
       <p class="slogan">A place to find various food related discounts!</p>
     </section>
   </header>
@@ -97,7 +101,7 @@
 
       <section class="Nova_tilbod" id="Nova_Tilbod_id">
         <img class="NovaLogo" src="https://i.imgur.com/MuhUv5h.png" alt="">
-        <div class="Nova_1">
+        <div class="Nova_1" id="style-1">
 
           <% nova.novaPlaces.forEach(function (food){ %>
 
@@ -141,7 +145,7 @@
 
     <section class="Vodafone_tilbod" id="Vodafone_Tilbod_id">
       <img class="VodLogo" src="https://i.imgur.com/EBmnIyo.png" alt="">
-      <div class="Vodafone_2">
+      <div class="Vodafone_2" id="style-1">
 
         <% vodafone.vodafonePlaces.forEach(function (food){ %>
 
@@ -187,7 +191,7 @@
 
     <section class="Siminn_tilbod" id="Siminn_Tilbod_id">
       <img class="tveirEinnLogo" src="https://i.imgur.com/A76Uhu2.png" alt="">
-      <div class="Siminn_3">
+      <div class="Siminn_3" id="style-1">
 
         <% twoForOne.twoForOnePlaces.forEach(function (food){ %>
 
@@ -227,45 +231,6 @@
           </div>
           <% }) %>
     </section>
-
-    <!--
-    <section class="Siminn_tilbod">
-      <img class="SimLogo" src="https://i.imgur.com/WB4YASG.png" alt="">
-      <div class="Siminn_3">
-
-        <% nova.novaPlaces.forEach(function (food){ %>
-
-          <div class="Tilbodin">
-
-            <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
-
-            <div class="eventName">
-              <p class="stadurNafn">
-                <%= food.name %>
-              </p>
-            </div>
-
-            <div class="about">
-              <p class="stadurUppl">
-                <%= food.about %>
-              </p>
-            </div>
-
-            <div class="Location">
-              <p>
-                <%= food.address %>
-              </p>
-              <% food.days.forEach(function (day){ %>
-                <p>
-                  <%= day.name %>
-                </p>
-                <% }) %>
-            </div>
-          </div>
-          <% }) %>
-      </div>
-    </section>
-    -->
 
   </main>
   <footer>
