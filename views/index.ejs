@@ -42,11 +42,9 @@
         <form action="/" method="GET">
           <input class="Logo" type="image" src="https://i.imgur.com/qz2eCBl.png" />
         </form>
- 
       <form action="/" method="GET">
         <input class="Logo" type="image" src="https://i.imgur.com/vzUn4CY.png" />
       </form>
-      
       <p class="slogan">A place to find various food related discounts!</p>
     </section>
   </header>
@@ -91,8 +89,12 @@
           <% nova.novaPlaces.forEach(function (food){ %>
 
             <div class="Tilbodin">
-
-              <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+                <a href="<%= food.website_url %>">
+                  <img class="Brynjar" src="<%= food.img%>" />
+                 
+                </a>
+              
+            
 
               <div class="eventName">
                 <p class="stadurNafn">
@@ -135,8 +137,10 @@
 
           <div class="Tilbodin">
 
-
-            <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+              <a href="<%= food.website_url %>">
+                  <img class="Brynjar" src="<%= food.img%>" />
+                 
+                </a>
 
             <div class="eventName">
               <p class="stadurNafn">
@@ -181,7 +185,10 @@
 
           <div class="Tilbodin">
 
-            <img class="Brynjar" src="<%= food.img%>" alt="Picture of the restaurant">
+              <a href="<%= food.website_url %>">
+                  <img class="Brynjar" src="<%= food.img%>" />
+                 
+                </a>
 
             <div class="eventName">
               <p class="stadurNafn">
